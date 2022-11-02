@@ -76,10 +76,10 @@
                     </div>
                 </div>
             </div>
-	       
+
 	    </div>
     </div>
-</div>        
+</div>
 
  <div class="main-wrapper">
 
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="col-lg-5 text-lg-start text-center">
-                
+
                      <br>
                      <h4 style="font-size: 15px " class="cta-title">As infants ,our aspirations is to grow old and still be useful to our family and the society but as we grow old,
                           nature ,nurtures us to be children again and as such we need love and care hygienically, which is where Humucare and cleaning agency comes in.</h4>
@@ -113,7 +113,7 @@
                                  <h4 style="font-size: 15px " class="cta-title">We supply company and individuals with cleaning operatives,
                                      care support worker and teaching assistant in and around West Midlands.</h4>
                                      <br>
-                                     <h4 style="font-size: 15px " class="cta-title">Furthermore, we provide other services like sourcing for 
+                                     <h4 style="font-size: 15px " class="cta-title">Furthermore, we provide other services like sourcing for
                                          oversea professionals in health and social care.</h4>
 
                 <a href="#a" class="btn btn--base mt-4">Register Now</a>
@@ -135,7 +135,7 @@
                             <div class="col-lg-3 col-sm-6">
                     <div class="feature-card text-center">
                         <div class="feature-card__icon">
-                           <!-- <img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/>-->         
+                           <!-- <img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/>-->
                              </div>
                         <div class="feature-card__content">
                             <h4 class="text-white">Mr Freshermel</h4>
@@ -143,11 +143,11 @@
                         </div>
                     </div>
                 </div>
-                
+
                  <div class="col-lg-3 col-sm-6">
                     <div class="feature-card text-center">
                         <div class="feature-card__icon">
-                           <!-- <img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/>-->         
+                           <!-- <img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/>-->
                              </div>
                         <div class="feature-card__content">
                             <h4 class="text-white">Mrs Nafisat seriki</h4>
@@ -155,14 +155,14 @@
                         </div>
                     </div>
                 </div>
-                         
+
                             <div class="col-lg-3 col-sm-6">
                     <div class="feature-card text-center">
                         <div class="feature-card__icon">
                            <!-- <img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/> -->                     </div>
                         <div class="feature-card__content">
                             <h4 class="text-white">Jane Smith</h4>
-                            <p class="mt-2 text-white">"I didnt know  what to do about my health issues. I found  that this team was just who  was looking 
+                            <p class="mt-2 text-white">"I didnt know  what to do about my health issues. I found  that this team was just who  was looking
                                 for. They are freindly, professional, and they really care.  "</p>
                         </div>
                     </div>
@@ -185,19 +185,19 @@
                             <!--<img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/> -->                       </div>
                         <div class="feature-card__content">
                             <h4 class="text-white">Mr Delapo Adebayo</h4>
-                            <p class="mt-2 text-white">"Humucare assisted 
-Me and my farmily 
-To get health care 
-Job in a nice company 
-And support in the visa process 
+                            <p class="mt-2 text-white">"Humucare assisted
+Me and my farmily
+To get health care
+Job in a nice company
+And support in the visa process
 Use Humucare they are the best."</p>
                         </div>
                         <br>
-                        
-                       
-                      
-                       
-                       
+
+
+
+
+
 <div class="elfsight-app-c5c465de-3d59-4795-a1ce-5d70fb33959d"></div>
                     </div>
                 </div>
@@ -209,12 +209,12 @@ Use Humucare they are the best."</p>
                             <!--<img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/> -->                       </div>
                         <div class="feature-card__content">
                             <h4 class="text-white">Aderibigbe Eniola</h4>
-                            <p class="mt-2 text-white">"The first time I was introduce to 
-Humucare by a friend 
+                            <p class="mt-2 text-white">"The first time I was introduce to
+Humucare by a friend
 To assist me in getting a Health care job from the UK
-I was a bit skeptical and scared if it a froud 
-Company. But I just use faith 
-And everything  became successful 
+I was a bit skeptical and scared if it a froud
+Company. But I just use faith
+And everything  became successful
 Use Humucare&cleaning Agency ,they are trustworthy"</p>
                         </div>
                     </div>
@@ -226,9 +226,9 @@ Use Humucare&cleaning Agency ,they are trustworthy"</p>
                             <!--<img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/> -->                       </div>
                         <div class="feature-card__content">
                             <h4 class="text-white">Mrs Mary David</h4>
-                            <p class="mt-2 text-white">"Humucare 
-Is d best cleaning company 
-They clean my house 
+                            <p class="mt-2 text-white">"Humucare
+Is d best cleaning company
+They clean my house
 To the best of my taste
 Beautiful cleaners and patient"</p>
                         </div>
@@ -237,7 +237,7 @@ Beautiful cleaners and patient"</p>
                             <div class="col-lg-3 col-sm-6">
                     <div class="feature-card text-center">
                         <div class="feature-card__icon">
-                            <!--<img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/>-->                    
+                            <!--<img src="{{ URL::asset('assets\images\employerLogo\6121088edc0e91629554830.jpg') }}"/>-->
                         </div>
                         <div class="feature-card__content">
                             <h4 class="text-white">Close Deal</h4>
@@ -247,8 +247,8 @@ Beautiful cleaners and patient"</p>
                 </div>
                     </div>
     </div>
-</section>            
-         
+</section>
+
 <section class="cta-section pt-80 pb-80">
     <div class="container">
         <div class="row gy-4 justify-content-between align-items-center">
@@ -283,10 +283,10 @@ Beautiful cleaners and patient"</p>
                                         <i class="las la-user"></i>                                    </div>
                                     <div class="content">
                                         <h3 class="package-card__name">Humucare Job Application Form</h3>
-                                       
+
                                     </div>
                                 </div>
-                               
+
                                 <div class="package-card__footer">
                                     <a href="/download2" class="btn btn--dark w-100 mt-4 planSubscribe">Download Now</a>
                                 </div>
@@ -300,10 +300,10 @@ Beautiful cleaners and patient"</p>
                                         <i class="las la-user"></i>                                    </div>
                                     <div class="content">
                                         <h3 class="package-card__name">Humucare Cleaner Application Form</h3>
-                                       
+
                                     </div>
                                 </div>
-                               
+
                                 <div class="package-card__footer">
                                     <a href="/download" class="btn btn--dark w-100 mt-4 planSubscribe">Download Now</a>
                                 </div>
@@ -317,10 +317,10 @@ Beautiful cleaners and patient"</p>
                                         <i class="las la-user"></i>                                    </div>
                                     <div class="content">
                                         <h3 class="package-card__name">Humucare Time Sheet Form.<br>Please note do not download, on till the job offer is been granted.</h3>
-                                       
+
                                     </div>
                                 </div>
-                               
+
                                 <div class="package-card__footer">
                                     <a href="/download3" class="btn btn--dark w-100 mt-4 planSubscribe">Download Now</a>
                                 </div>
@@ -410,16 +410,16 @@ Beautiful cleaners and patient"</p>
                                         <i class="las la-user"></i>                                    </div>
                                     <div class="content" id="s">
                                         <h3 class="package-card__name">From 5hours £13/hours. Less than 5hours is 16.50/hours </h3>
-                                       
+
                                     </div>
                                 </div>
-                               
+
                                 <div class="package-card__footer">
                                      <a href="javascript:void(0)" data-bs-toggle="modal" data-plan_id="1" data-bs-target="#exampleModal3" class="btn btn--dark w-100 mt-4 planSubscribe">Quote</a>
                                 </div>
                             </div>
                         </div>
-                               
+
                                     </div>
             </div>
         </div>
@@ -444,7 +444,7 @@ Beautiful cleaners and patient"</p>
           color: 'gold',
           layout: 'vertical',
           label: 'paypal',
-          
+
         },
 
         createOrder: function(data, actions) {
@@ -455,7 +455,7 @@ Beautiful cleaners and patient"</p>
 
         onApprove: function(data, actions) {
           return actions.order.capture().then(function(orderData) {
-            
+
             // Full available details
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
 
@@ -465,7 +465,7 @@ Beautiful cleaners and patient"</p>
             element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
             // Or go to another URL:  actions.redirect('thank_you.html');
-            
+
           });
         },
 
@@ -476,7 +476,7 @@ Beautiful cleaners and patient"</p>
     }
     initPayPalButton();
   </script>
-           
+
         </div>
     </div>
 </div>
@@ -497,17 +497,17 @@ Beautiful cleaners and patient"</p>
 <div class="modal fade custom--modal" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            
+
            <h4 align="center"><strong>Important Notice !!!</strong><br> From 5hours and above is  £15/hour and for less than 5hour is  £17/hour.<br><br><br>
-           
+
           Please Kindly send the correct amount to the acoount details below;
-          
+
           <br>
           <strong> Humucare&cleaning agency limited<br>
           Sort code: 040370<br>
           Bank Name:Anna.
           </strong><br><br>
-         
+
            <strong>Note !!!</strong> <br>Please after successfull transfer kindly send proof of payment e.g screenshot of debit alert to this email "agency@humucarecleaning.co.uk"
           </h4>
            <div id="smart-button-container">
@@ -524,7 +524,7 @@ Beautiful cleaners and patient"</p>
           color: 'gold',
           layout: 'vertical',
           label: 'paypal',
-          
+
         },
 
         createOrder: function(data, actions) {
@@ -535,7 +535,7 @@ Beautiful cleaners and patient"</p>
 
         onApprove: function(data, actions) {
           return actions.order.capture().then(function(orderData) {
-            
+
             // Full available details
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
 
@@ -545,7 +545,7 @@ Beautiful cleaners and patient"</p>
             element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
             // Or go to another URL:  actions.redirect('thank_you.html');
-            
+
           });
         },
 
@@ -556,7 +556,7 @@ Beautiful cleaners and patient"</p>
     }
     initPayPalButton();
   </script>
-    
+
         </div>
     </div>
 </div>
@@ -591,7 +591,7 @@ Beautiful cleaners and patient"</p>
                             </a>
                         </div>
                         <br>
-                        
+
                           <div class="blog-post__thumb rounded-3">
                             <span class="blog-post__date"><i class="las la-calendar"></i> 29 Oct 2020</span>
                             <a href="" class="d-block h-100">
@@ -602,7 +602,7 @@ Beautiful cleaners and patient"</p>
                             <!--<h4 class="blog-post__title"><a href="blog/26/deleniti-animi-est-ipsum-excepturi-ab-modi-minus">Deleniti, animi est ipsum excepturi ab modi minus.</a></h4>
                             <p class="mt-2">dolor sit amet consectetur adipisicing elit. Consequatur incidunt beatae culpa t...</p>
                             <a href="blog/26/deleniti-animi-est-ipsum-excepturi-ab-modi-minus" class="text--base text-decoration-underline mt-4">Read More</a>-->
-                        
+
                         </div>
                     </div>
                 </div>
@@ -658,12 +658,12 @@ Beautiful cleaners and patient"</p>
 
         </div>
 
-       
+
 
 <section class="pt-100 pb-100" id="comment">
     <div class="container">
         <div class="row gy-4">
-          
+
             <div class="col-lg-6">
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="394" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=19%20%C2%A0grove%20avenue%20Birmingham%C2%A0%20B21%209EX&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br><style>.mapouter{position:relative;text-align:right;height:390px;width:394px;}</style><a href="https://www.embedgooglemap.net">how to add google maps to your website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:390px;width:394px;}</style></div></div>
             </div>
@@ -676,7 +676,7 @@ Beautiful cleaners and patient"</p>
                     </div>
                     <div class="contact-item__content">
                         <h5 class="mb-2">Office Address</h5>
-                        <p>Grove avenue Birmingham 
+                        <p>Grove avenue Birmingham
                             B21 9EX</p>
                     </div>
                 </div>
@@ -710,9 +710,4 @@ Beautiful cleaners and patient"</p>
     </div>
 </section>
     </div>
-
-<<<<<<< HEAD
     @endsection
-=======
-    @endsection
->>>>>>> b3a13a6 (DBS CHECK ENQUIRY)
