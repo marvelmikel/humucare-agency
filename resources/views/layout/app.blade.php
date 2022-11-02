@@ -14,7 +14,7 @@
 
     <meta name="google-site-verification" content="7X6Gly5WrX-YUCJoRjgVYucQy5QqRNsTVW87x3PrIqA" />
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-9149fc86-675b-45d5-a8dd-b2b307739176"></div>
+
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">

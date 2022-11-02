@@ -10,34 +10,7 @@
                     Provide assistance to individuals looking for Sponsorship.</h4>
 			</div>
 		</div><!-- row end -->
-		<!--<div class="row justify-content-center mt-5">
-			<div class="col-xl-8 col-lg-9">
-				<form action="" method="" class="hero__form">
-					<div class="input-field">
-						<select name="city" class="form--control">
-							<option value="">Select City</option>
-							                                <option value="1"  data-locations="[{&quot;id&quot;:10,&quot;city_id&quot;:1,&quot;name&quot;:&quot;Alameda&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:26:40.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:26:40.000000Z&quot;},{&quot;id&quot;:11,&quot;city_id&quot;:1,&quot;name&quot;:&quot;Alhambra&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:26:47.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:26:47.000000Z&quot;}]">California</option>
-                                                            <option value="2"  data-locations="[{&quot;id&quot;:1,&quot;city_id&quot;:2,&quot;name&quot;:&quot;Los Angeles&quot;,&quot;created_at&quot;:&quot;2021-08-09T06:33:54.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:24:00.000000Z&quot;},{&quot;id&quot;:2,&quot;city_id&quot;:2,&quot;name&quot;:&quot;Chicago&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:24:24.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:24:24.000000Z&quot;},{&quot;id&quot;:3,&quot;city_id&quot;:2,&quot;name&quot;:&quot;Houston&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:24:33.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:24:33.000000Z&quot;},{&quot;id&quot;:12,&quot;city_id&quot;:2,&quot;name&quot;:&quot;Chautauqua&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:27:01.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:27:01.000000Z&quot;},{&quot;id&quot;:13,&quot;city_id&quot;:2,&quot;name&quot;:&quot;Coney Island&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:27:08.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:27:08.000000Z&quot;},{&quot;id&quot;:14,&quot;city_id&quot;:2,&quot;name&quot;:&quot;Cortland&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:27:18.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:27:18.000000Z&quot;}]">New York</option>
-                                                            <option value="3"  data-locations="[{&quot;id&quot;:15,&quot;city_id&quot;:3,&quot;name&quot;:&quot;Saint Martinville&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:27:40.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:27:40.000000Z&quot;},{&quot;id&quot;:16,&quot;city_id&quot;:3,&quot;name&quot;:&quot;New Orleans&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:27:47.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:27:47.000000Z&quot;}]">Illinois</option>
-                                                            <option value="4"  data-locations="[{&quot;id&quot;:4,&quot;city_id&quot;:4,&quot;name&quot;:&quot;Phoenix&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:24:41.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:24:41.000000Z&quot;},{&quot;id&quot;:17,&quot;city_id&quot;:4,&quot;name&quot;:&quot;Lake Havasu City&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:28:02.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:28:02.000000Z&quot;},{&quot;id&quot;:18,&quot;city_id&quot;:4,&quot;name&quot;:&quot;Prescott&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:28:11.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:28:11.000000Z&quot;}]">Arizona</option>
-                                                            <option value="5"  data-locations="[{&quot;id&quot;:5,&quot;city_id&quot;:5,&quot;name&quot;:&quot;Pennsylvania&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:24:50.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:24:50.000000Z&quot;},{&quot;id&quot;:19,&quot;city_id&quot;:5,&quot;name&quot;:&quot;Hillsborough&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:28:28.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:28:28.000000Z&quot;},{&quot;id&quot;:20,&quot;city_id&quot;:5,&quot;name&quot;:&quot;Morehead City&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:28:37.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:28:37.000000Z&quot;}]">North Carolina</option>
-                                                            <option value="6"  data-locations="[{&quot;id&quot;:6,&quot;city_id&quot;:6,&quot;name&quot;:&quot;Jacksonville&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:25:00.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:25:00.000000Z&quot;},{&quot;id&quot;:21,&quot;city_id&quot;:6,&quot;name&quot;:&quot;Bloomfield Hills&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:28:53.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:28:53.000000Z&quot;},{&quot;id&quot;:22,&quot;city_id&quot;:6,&quot;name&quot;:&quot;Highland Park&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:29:01.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:29:01.000000Z&quot;}]">Michigan</option>
-                                                            <option value="7"  data-locations="[{&quot;id&quot;:7,&quot;city_id&quot;:7,&quot;name&quot;:&quot;North Carolina&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:25:11.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:25:11.000000Z&quot;},{&quot;id&quot;:8,&quot;city_id&quot;:7,&quot;name&quot;:&quot;Seattle&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:25:22.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:25:22.000000Z&quot;},{&quot;id&quot;:23,&quot;city_id&quot;:7,&quot;name&quot;:&quot;Claremore&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:29:13.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:29:13.000000Z&quot;},{&quot;id&quot;:24,&quot;city_id&quot;:7,&quot;name&quot;:&quot;Elk City&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:29:22.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:29:22.000000Z&quot;},{&quot;id&quot;:25,&quot;city_id&quot;:7,&quot;name&quot;:&quot;Holdenville&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:29:30.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:29:30.000000Z&quot;}]">Oklahoma</option>
-                                                            <option value="8"  data-locations="[{&quot;id&quot;:9,&quot;city_id&quot;:8,&quot;name&quot;:&quot;Badger State&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:25:32.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:25:32.000000Z&quot;},{&quot;id&quot;:26,&quot;city_id&quot;:8,&quot;name&quot;:&quot;Milwaukee&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:29:46.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:29:46.000000Z&quot;},{&quot;id&quot;:27,&quot;city_id&quot;:8,&quot;name&quot;:&quot;Lake Geneva&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:30:05.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:30:05.000000Z&quot;},{&quot;id&quot;:28,&quot;city_id&quot;:8,&quot;name&quot;:&quot;Fond du Lac&quot;,&quot;created_at&quot;:&quot;2021-08-14T07:30:12.000000Z&quot;,&quot;updated_at&quot;:&quot;2021-08-14T07:30:12.000000Z&quot;}]">Wisconsins</option>
-                                                            <option value="9"  data-locations="[]">rqfsadf</option>
-                            						</select>
-						<i class="las la-search"></i>
-					</div>
-					<div class="input-field">
-						<select class="form--control" name="location">
-							<option value="" selected="" disabled="">Select One</option>
-						</select>
-						<i class="las la-map-marker"></i>
-					</div>
-					<button type="submit" class="hero__form-btn">Find Job</button>
-				</form>
-			</div>
-		</div>-->
+
 	</div>
 </section>
 
@@ -81,11 +54,13 @@
     </div>
 </div>
 
+
  <div class="main-wrapper">
 
 
         <section class="cta-section pt-80 pb-80" id="about">
     <div class="container">
+        <div class="elfsight-app-9149fc86-675b-45d5-a8dd-b2b307739176"></div>
          <h4  class="cta-title">About Us</h4>
          <br>
          <h4 style="font-size: 15px " class="cta-title">Humucare&cleaning Agency is​ a registered company​​ located at the heart of birmingham, we are an organization with a standout experience in the care giving​ and cleaning .​ As we all know hygiene is a paramount and essential
@@ -592,12 +567,6 @@ Beautiful cleaners and patient"</p>
                         </div>
                         <br>
 
-                          <div class="blog-post__thumb rounded-3">
-                            <span class="blog-post__date"><i class="las la-calendar"></i> 29 Oct 2020</span>
-                            <a href="" class="d-block h-100">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDK0TRIp4c4e7k8jkvm1e0HwzHCpyW7U7CGA&usqp=CAU" alt="blog image" class="w-100 h-100 object-fit--cover">
-                            </a>
-                        </div>
                         <div class="blog-post__content">
                             <!--<h4 class="blog-post__title"><a href="blog/26/deleniti-animi-est-ipsum-excepturi-ab-modi-minus">Deleniti, animi est ipsum excepturi ab modi minus.</a></h4>
                             <p class="mt-2">dolor sit amet consectetur adipisicing elit. Consequatur incidunt beatae culpa t...</p>
@@ -614,11 +583,7 @@ Beautiful cleaners and patient"</p>
                                 <img src="{{URL::asset('https://media.istockphoto.com/photos/portrait-of-senior-woman-and-her-mixed-race-female-caregiver-picture-id1180634974?k=20&m=1180634974&s=612x612&w=0&h=EaUD9zNOgMvakXISHf5jQQ9dvKD8LTllG5Og14a6qUo=')}}" alt="blog image" class="w-100 h-100 object-fit--cover">
                             </a>
                         </div>
-                        <div class="blog-post__content">
-                            <!--<h4 class="blog-post__title"><a href="blog/30/suscipit-nemo-modi-recusandae-culpa-iure-voluptatum-fugit">Suscipit nemo modi recusandae culpa iure voluptatum fugit.</a></h4>
-                            <p class="mt-2">Dolor sit amet consectetur adipisicing elit. Consequatur incidunt beatae culpa t...</p>
-                            <a href="blog/30/suscipit-nemo-modi-recusandae-culpa-iure-voluptatum-fugit" class="text--base text-decoration-underline mt-4">Read More</a>-->
-                        </div>
+
                     </div>
                 </div>
                             <div class="col-lg-4 col-md-6">
@@ -629,16 +594,6 @@ Beautiful cleaners and patient"</p>
                                 <img src="{{URL::asset('https://media.istockphoto.com/photos/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-picture-id1047536650?k=20&m=1047536650&s=612x612&w=0&h=PZFyzG7mwRkMKSbyelxI-_0E-sk9iSCoQSi_sLv9bHI=')}}" alt="blog image" class="w-100 h-100 object-fit--cover">
                             </a>
                         </div>
-                        <div class="blog-post__content">
-                            <!--<h4 class="blog-post__title"><a href="blog/63/consequatur-incidunt-beatae-culpa-temporibus-officiis-quidem-illo-inventore-quam-vitae-unde">Consequatur incidunt beatae culpa temporibus officiis quidem! Illo inventore quam vitae unde</a></h4>
-                            <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur incidunt b...</p>
-                            <a href="blog/63/consequatur-incidunt-beatae-culpa-temporibus-officiis-quidem-illo-inventore-quam-vitae-unde" class="text--base text-decoration-underline mt-4">Read More</a>-->
-                        </div>
-                    </div>
-                </div>
-                <br>
-                    <div class="col-lg-4 col-md-6">
-                    <div class="blog-post">
                         <div class="blog-post__thumb rounded-3">
                             <span class="blog-post__date"><i class="las la-calendar"></i> 08 Aug 2022</span>
                             <a href="" class="d-block h-100">
@@ -652,6 +607,8 @@ Beautiful cleaners and patient"</p>
                         </div>
                     </div>
                 </div>
+                <br>
+
                     </div>
     </div>
 </section>
