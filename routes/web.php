@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('humcareform',  [PageController::class,'humcareform']);
+Route::get('humcarecleanform',  [PageController::class,'humcarecleanform']);
+
+
 Route::get('about',  [PageController::class,'about'])->name('about');
 
 Route::get('job',  [PageController::class,'job'])->name('job');
@@ -69,8 +73,7 @@ Route::get('/download4', function(){
 
 
 
-//Comments url
-Route::post('comments',  [App\Http\Controllers\Frontend\CommentController::class, 'store']);
+
 
 
 
