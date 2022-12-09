@@ -18,6 +18,23 @@ Route::get('/', function () {
 });
 
 Route::get('humcareform',  [PageController::class,'humcareform']);
+Route::post('humcareform-step-one',[PageController::class, 'postFormStepOne']);
+
+Route::get('humcareform-step-two',  [PageController::class,'getFormStepTwo']);
+Route::post('humcareform-step-two',  [PageController::class,'postFormStepTwo']);
+
+Route::get('humcareform-step-three',  [PageController::class,'getFormStepThree']);
+Route::post('humcareform-step-three',  [PageController::class,'postFormStepThree']);
+
+Route::get('humcareform-step-four',  [PageController::class,'getFormStepFour']);
+Route::post('humcareform-step-four',  [PageController::class,'postFormStepFour']);
+
+
+Route::get('humcareform-step-five',  [PageController::class,'getFormStepFive']);
+Route::post('humcareform-step-five',  [PageController::class,'postFormStepFive']);
+
+
+
 Route::get('humcarecleanform',  [PageController::class,'humcarecleanform']);
 
 
