@@ -91,7 +91,7 @@
                                      <h4 style="font-size: 15px " class="cta-title">Furthermore, we provide other services like sourcing for
                                          oversea professionals in health and social care.</h4>
 
-                <a href="#a" class="btn btn--base mt-4">Register Now</a>
+                <a href="/humcareform" class="btn btn--base mt-4">Register Now</a>
             </div>
         </div>
     </div>
@@ -234,7 +234,7 @@ Beautiful cleaners and patient"</p>
             </div>
             <div class="col-lg-5 text-lg-start text-center">
                 <h2 class="cta-title">Over 20,000+ Health workers Registered with Us.</h2>
-                <a href="#a" class="btn btn--base mt-4">Register Now</a>
+                <a href="/humcareform" class="btn btn--base mt-4">Register Now</a>
             </div>
         </div>
     </div>
