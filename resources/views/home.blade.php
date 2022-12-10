@@ -559,13 +559,15 @@ Beautiful cleaners and patient"</p>
                                 <img src="{{URL::asset('https://media.istockphoto.com/photos/are-you-enjoying-your-breakfast-picture-id1165371469?k=20&m=1165371469&s=612x612&w=0&h=9VNP-nNVrqe2l6X9EGwfGDYd4K_BPJtnkgWb555VWKs=')}}" alt="blog image" class="w-100 h-100 object-fit--cover">
                             </a>
                         </div>
+                        <br>
+
                         <div class="blog-post__thumb rounded-3">
                             <span class="blog-post__date"><i class="las la-calendar"></i> 28 Oct 2020</span>
                             <a href="" class="d-block h-100">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5_yh476W1q5JS5VtlRzn72vIMD7NEgfswaQ&usqp=CAU" alt="blog image" class="w-100 h-100 object-fit--cover">
                             </a>
                         </div>
-                        <br>
+
 
                         <div class="blog-post__content">
                             <!--<h4 class="blog-post__title"><a href="blog/26/deleniti-animi-est-ipsum-excepturi-ab-modi-minus">Deleniti, animi est ipsum excepturi ab modi minus.</a></h4>
@@ -575,6 +577,7 @@ Beautiful cleaners and patient"</p>
                         </div>
                     </div>
                 </div>
+                <br>
                             <div class="col-lg-4 col-md-6">
                     <div class="blog-post">
                         <div class="blog-post__thumb rounded-3">
@@ -585,6 +588,13 @@ Beautiful cleaners and patient"</p>
                         </div>
 
                     </div>
+                    <br>
+                    <div class="blog-post__thumb rounded-3">
+                        <span class="blog-post__date"><i class="las la-calendar"></i> 08 Aug 2022</span>
+                        <a href="" class="d-block h-100">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRez3oSZod8gW0gYhjTzkHQsiXQbqS40jpr3A&usqp=CAU" alt="blog image" class="w-100 h-100 object-fit--cover">
+                        </a>
+                    </div>
                 </div>
                             <div class="col-lg-4 col-md-6">
                     <div class="blog-post">
@@ -594,6 +604,7 @@ Beautiful cleaners and patient"</p>
                                 <img src="{{URL::asset('https://media.istockphoto.com/photos/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-picture-id1047536650?k=20&m=1047536650&s=612x612&w=0&h=PZFyzG7mwRkMKSbyelxI-_0E-sk9iSCoQSi_sLv9bHI=')}}" alt="blog image" class="w-100 h-100 object-fit--cover">
                             </a>
                         </div>
+                        <br>
                         <div class="blog-post__thumb rounded-3">
                             <span class="blog-post__date"><i class="las la-calendar"></i> 08 Aug 2022</span>
                             <a href="" class="d-block h-100">
@@ -620,10 +631,8 @@ Beautiful cleaners and patient"</p>
 <section class="pt-100 pb-100" id="comment">
     <div class="container">
         <div class="row gy-4">
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=19 grove Birmingham B219EX&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
 
-            <div class="col-lg-6">
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="394" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=19%20%C2%A0grove%20avenue%20Birmingham%C2%A0%20B21%209EX&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br><style>.mapouter{position:relative;text-align:right;height:390px;width:394px;}</style><a href="https://www.embedgooglemap.net">how to add google maps to your website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:390px;width:394px;}</style></div></div>
-            </div>
         </div>
         <div class="row mt-5 gy-4 justify-content-center">
             <div class="col-lg-4 col-md-6">
