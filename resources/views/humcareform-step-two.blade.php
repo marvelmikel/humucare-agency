@@ -1,6 +1,7 @@
 @extends('layout.form')
 
 @section('content')
+@include('partials.notify')
 <div class="page-wrapper">
         <div class="content container-fluid">
         <div class="card">
@@ -176,7 +177,7 @@
                                     
                                     <div class="row">
                                         <div class="col-6">
-                                        <button type="submit" class="btn btn-lg btn-success text-left">Previous </button>
+                                        <a  href ="/humcareform-step-one" class="btn btn-lg btn-success text-left">Previous </a>
                                         </div>
                                         <div class="col-6 text-right">
                                         <button type="submit" class="btn btn-lg btn-primary text-right">Next</button>

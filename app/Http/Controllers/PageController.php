@@ -34,7 +34,7 @@ class PageController extends Controller
       $details->fill($validatedData);
       $request->session()->put('details', $details);
   }else{
-      $details = $request->session()->get('product');
+      $details = $request->session()->get('details');
       $details->fill($validatedData);
       $request->session()->put('details', $details);
 
@@ -48,51 +48,173 @@ class PageController extends Controller
     return view ('humcareform-step-two',compact('details'));
   }
   
-public function postFromStepTwo () {
+public function postFormStepTwo (Request $request) {
 
-
+    $validatedData = $request->validate([
+      'university' =>'required',
+        'course'=>'required',
+        'qualification'=>'required',
+        'profQualification'=>'required',
+        'courseDetails' =>'required',
+        'membership'=>'required',
+        'trainingProgram'=>'required',
+        'courseDuration' =>'required',
+        'personalStatement' =>'required',
+        'conviction'=>'required',
+        'convictionDetails'=>'required',
+        'underTaking'=>'required',
+    ]);  
+  
+      $details = $request->session()->get('details');
+      $details->fill($validatedData);
+      $request->session()->put('details', $details);
+  
   return redirect ('/humcareform-step-three');
 }
 
+  public function getFormStepThree (Request $request){
 
+    $details = $request->session()->get('details');
 
-  public function getFormStepThree (){
-
-
-    return view ('humcareform-step-three');
+    return view ('humcareform-step-three',compact('details'));
   }
 
-  public function postFormStepThree (){
-
+  public function postFormStepThree (Request $request){
+    $validatedData = $request->validate([
+    'offence' =>'required',
+    'disability' =>'required',
+  'sicknessAbsence' =>'required', 
+  'refereeName1' =>'required',
+  'refereePosition1' =>'required', 
+  'refereeRelationship1' =>'required',
+  'refereeOrganization1' =>'required',
+  'refereeAddress1'=>'required',
+  'refereePostCode1' =>'required',
+  'refereeTelephone1'=>'required',
+  'refereeEmail1' =>'required', 
+  'refereeName2'=>'required', 
+  'refereePosition2' =>'required',
+  'refereeRelationShip2'=>'required',
+  'refereeOrganization2'=>'required',
+  'refereeAddress2'=>'required', 
+  'refereePostCode2'=>'required', 
+  'refereeTelephone2'=>'required',
+  'refereeEmail2'=>'required',
+  'approachReferee'=>'required',
+    ]);
+    $details = $request->session()->get('details');
+      $details->fill($validatedData);
+      $request->session()->put('details', $details);
 
     return redirect('/humcareform-step-four');
   }
-  
-  
-  
-  public function getFormStepFour(){
 
+
+  public function getFormStepFour(Request $request){
+
+    $details = $request->session()->get('details');
 
     return view ('humcareform-step-four');
   }
   
-  public function postFormStepFour(){
-
-
+  public function postFormStepFour(Request $request){
+   $validatedData = request()->validate([
+    'bankName'=>'required',
+    'bankBranch'=>'required',
+    'nameOnCard'=>'required',
+    'accountNumber'=>'required',
+    'sortCode'=>'required',
+    'postApplication'=>'required',
+    'ethnicGroup'=>'required',
+    'gender'=>'required',
+    'diabilityConfirm'=>'required',
+    'presentStatus'=>'required',
+    'age'=>'required',
+   ]);
+   $details = $request->session()->get('details');
+   $details->fill($validatedData);
+   $request->session()->put('details',$details);
     return redirect ('/humcareform-step-five');
   }
   
   
-  public function getFormStepFive(){
+  public function getFormStepFive(Request $request){
+    $details = $request->session()->get('details');
 
-
-    return view ('humcareform-step-four');
+    return view ('humcareform-step-five');
   }
   
-  public function postFormStepFive(){
+  public function postFormStepFive(Request $request){
 
 
-    return redirect ('humcareform-step-one');
+    $request->validate([
+      'passportBirth'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'proofOfWork'=>'required|mimes:png,jpg,jpeg,pdf|max:20488',
+      'proofOfAddress'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'originalCertificate'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'certificateTraining'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'passportPhoto'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'bankSocietyDetails'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'dbsCertificate'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'nationalInsurance'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+      'curriculumVitae'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
+     ]);
+
+      $passportBirthName = now()->timestamp.".{$request->passportBirth->getClientOriginalName()}";
+      $request->file('passportBirth')->storeAs('Documents', $passportBirthName);
+
+      $proofOfWorkName = now()->timestamp.".{$request->proofOfWork->getClientOriginalName()}";
+      $request->file('proofOfWork')->storeAs('Documents',  $proofOfWorkName);
+
+      $proofOfAddressName = now()->timestamp.".{$request->proofOfAddress->getClientOriginalName()}";
+      $request->file('proofOfAddress')->storeAs('Documents', $proofOfAddressName);
+
+      $originalCertificateName = now()->timestamp.".{$request->originalCertificate->getClientOriginalName()}";
+      $request->file('originalCertificate')->storeAs('Documents', $originalCertificateName);
+      
+      
+      $certificateTrainingName = now()->timestamp.".{$request->certificateTraining->getClientOriginalName()}";
+      $request->file('certificateTraining')->storeAs('Documents', $certificateTrainingName);
+      
+      
+      $passportPhotoName = now()->timestamp.".{$request->passportPhoto->getClientOriginalName()}";
+      $request->file('passportPhoto')->storeAs('Documents', $passportPhotoName);
+
+      
+      $bankSocietyDetailsName = now()->timestamp.".{$request->bankSocietyDetails->getClientOriginalName()}";
+      $request->file('bankSocietyDetails')->storeAs('Documents', $bankSocietyDetailsName);
+      
+      $dbsCertificateName = now()->timestamp.".{$request->dbsCertificate->getClientOriginalName()}";
+      $request->file('dbsCertificate')->storeAs('Documents', $dbsCertificateName);
+
+
+      $nationalInsuranceName = now()->timestamp.".{$request->nationalInsurance->getClientOriginalName()}";
+      $request->file('nationalInsurance')->storeAs('Documents', $nationalInsuranceName);
+
+      $curriculumVitaeName = now()->timestamp.".{$request->curriculumVitae->getClientOriginalName()}";
+      $request->file('curriculumVitae')->storeAs('Documents', $curriculumVitaeName);
+     
+      $imageDetails = [
+        'passportBirth' => $passportBirthName,
+        'proofOfWork'   => $proofOfWorkName,
+        'proofOfAddress' => $proofOfAddressName,
+        'originalCertificate' => $originalCertificateName,
+        'certificateTraining' => $certificateTrainingName,
+        'passportPhoto' =>  $passportPhotoName,
+        'bankSocietyDetails'=>$bankSocietyDetailsName,
+        'dbsCertificate' => $dbsCertificateName,
+        'nationalInsurance' => $nationalInsuranceName,
+        'curriculumVitae' => $curriculumVitaeName,
+      ];
+      $details = $request->session()->get('details');
+      $details->fill($imageDetails);
+      $request->session()->put('details', $details);
+      $details->save();
+      $request->session()->flush();
+      
+      $notify[] = ['success', 'Your submission was successful'];
+
+      return redirect('humcareform')->withNotify($notify);
   }
   
   

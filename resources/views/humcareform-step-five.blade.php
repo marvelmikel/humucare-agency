@@ -1,16 +1,24 @@
 @extends('layout.form')
 
 @section('content')
-<div class="card-header">
+<div class="page-wrapper">
+        <div class="content container-fluid">
+        <div class="card">
+        <div class="row">
+                <div class="col-lg-12">
+                    <div class="card-header">
                                     <h4 class="card-title mb-0">Attachments </h4>
                                 </div>
+                                <div class="card-body">
+                                <form action="humcareform-step-five"  method ="post" enctype="multipart/form-data"> 
+                                    @csrf
                                 <div class="form-group row">
-                                    <label class="col-form-label col-lg-2">Passport/UK Birth Certificate/Driver's License </label>
+                                     <label class="col-form-label col-lg-2">Passport/UK Birth Certificate/Driver's License </label>
                                     <div class="col-lg-10">
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                             </div>
-                                            <input type="file" class="form-control" name ="paspportBirth">
+                                            <input type="file" class="form-control" name ="passportBirth">
                                         </div>
                                     </div>
                                 </div>
@@ -104,4 +112,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="text-center">
+                                        <button type="submit" class="btn btn-lg btn-primary text-right">Submit</button>
+                                        </div>
+                                        </form>
+
+                                </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
 @endsection
