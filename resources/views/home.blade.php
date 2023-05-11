@@ -319,23 +319,86 @@ Beautiful cleaners and patient"</p>
             </div>
             <div class="col-lg-7">
                 <div class="row gy-4 justify-content-center" >
-                                            <div class="col-md-6">
+                                            
+                        <div class="col-md-6">
                             <div class="package-card">
 
                                 <div class="package-card__top">
                                     <div class="icon">
                                         <i class="las la-user"></i>                                    </div>
                                     <div class="content">
-                                        <h3 class="package-card__name">Health Workers & Student's</h3>
+                                        <h3 class="package-card__name"> Visa Application </h3>
+                                        <div class="package-card__price"> £5 <sub> / for other international countries</sub></div>
+                                    </div>
+                                </div>
+                                <div class="package-card__footer">
+                                     <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Apply </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="package-card">
+
+                                <div class="package-card__top">
+                                    <div class="icon">
+                                        <i class="las la-user"></i>                                    </div>
+                                    <div class="content">
+                                        <h3 class="package-card__name">Ticket Application </h3>
+                                        <div class="package-card__price">£5 <sub>/ for other international countries</sub></div>
+                                    </div>
+                                </div>
+                                
+                               
+                                <div class="package-card__footer">
+                                     <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Apply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="package-card">
+
+                                <div class="package-card__top">
+                                    <div class="icon">
+                                        <i class="las la-user"></i>                                    </div>
+                                    <div class="content">
+                                        <h3 class="package-card__name">Accommodation Application</h3>
+                                        <div class="package-card__price">£5 <sub>/ for other international countries</sub></div>
+                                    </div>
+                                </div>
+                                <div class="package-card__footer">
+                                     <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Apply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="package-card">
+
+                                <div class="package-card__top">
+                                    <div class="icon">
+                                        <i class="las la-user"></i>                                    </div>
+                                    <div class="content">
+                                        <h3 class="package-card__name"> Global Talent Visa </h3>
+                                        <div class="package-card__price">£5 <sub>/ for other international countries</sub></div>
+                                    </div>
+                                </div>
+                               <div class="package-card__footer">
+                                     <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Apply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="package-card">
+
+                                <div class="package-card__top">
+                                    <div class="icon">
+                                        <i class="las la-user"></i>                                    </div>
+                                    <div class="content">
+                                        <h3 class="package-card__name">Lawyer/Accountant Assistant Application</h3>
                                         <div class="package-card__price">£50<sub>/ for other international countries</sub></div>
                                     </div>
                                 </div>
-                                <div class="package-card__content">
-                                    <ul class="package-card__feature-list">
-                                        <li>Full job and School Description<span class="badge badge--base">guaranteed visa</span></li>
-                                </div>
                                 <div class="package-card__footer">
-                                     <a href="javascript:void(0)" data-bs-toggle="modal" data-plan_id="1" data-bs-target="#exampleModal" class="btn btn--dark w-100 mt-4 planSubscribe">Subscribe</a>
+                                     <a href="/applications"  class="btn btn--dark w-100 mt-4 planSubscribe">Apply</a>
                                 </div>
                             </div>
                         </div>
@@ -360,6 +423,28 @@ Beautiful cleaners and patient"</p>
                             </div>
                         </div>
                                     </div>
+
+                                    <div class="col-md-6">
+                            <div class="package-card">
+
+                                <div class="package-card__top">
+                                    <div class="icon">
+                                        <i class="las la-user"></i>                                    </div>
+                                    <div class="content">
+                                        <h3 class="package-card__name">Health Workers & Student's</h3>
+                                        <div class="package-card__price">£50<sub>/ for other international countries</sub></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="package-card__content">
+                                    <ul class="package-card__feature-list">
+                                        <li>Full job and School Description<span class="badge badge--base">guaranteed visa</span></li>
+                                </div>
+                                <div class="package-card__footer">
+                                     <a href="javascript:void(0)" data-bs-toggle="modal" data-plan_id="1" data-bs-target="#exampleModal" class="btn btn--dark w-100 mt-4 planSubscribe">Subscribe</a>
+                                </div>
+                            </div>
+                        </div>
             </div>
         </div>
     </div>
