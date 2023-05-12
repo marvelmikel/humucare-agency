@@ -16,10 +16,10 @@ return new class extends Migration
         //
         Schema::create('applications', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('phone');
+            $table->string('firstname');
+            $table->string('lastname');
             $table->string('email');
-            $table->string('status');
+            $table->string('trx_status');
             $table->string('type');
             $table->rememberToken();
             $table->timestamps();

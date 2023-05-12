@@ -32,8 +32,15 @@ Route::get('humcarecleanform',  [PageController::class,'humcarecleanform']);
 
 
 //
-Route::get('applications', [ApplicationController::class, 'index']);
-Route::post('applications',[ApplicationController::class, 'store']);
+Route::get('applications', [ApplicationController::class, 'index'])->name('createTransaction');
+Route::post('applications',[ApplicationController::class, 'store'])->name('application.store');
+
+//PayPal
+Route::post('process-transaction', [ApplicationController::class, 'processTransaction'])->name('processTransaction');
+Route::get('success-transaction', [ApplicationController::class, 'successTransaction'])->name('successTransaction');
+Route::get('cancel-transaction', [ApplicationController::class, 'cancelTransaction'])->name('cancelTransaction');
+
+
 
 
 //Guest pages

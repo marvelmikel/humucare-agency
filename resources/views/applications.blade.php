@@ -21,6 +21,7 @@
 </head>
 
 <body>
+@include('partials.notify')
     <div class="card">
 
 <div class="card-body">
@@ -32,7 +33,8 @@
 <h4 class="card-title mb-0"> Application Assitance Form </h4>
 </div>
 <div class="card-body">
-<form action="#">
+<form action="{{route('processTransaction')}}" method="post">
+    @csrf
 <div class="form-group row">
 <label class="col-form-label col-lg-2">First Name</label>
     <div class="col-lg-10">
@@ -40,7 +42,7 @@
             <div class="input-group-prepend">
             </div>
             <input type="text" class="form-control" placeholder="First Name"
-                aria-label="First Name" aria-describedby="basic-addon1" name ="firstName" value ="{{ $details->firstName ?? '' }}" >
+                aria-label="First Name" aria-describedby="basic-addon1" name ="firstname" required >
         </div>
     </div>
     
@@ -50,7 +52,7 @@
             <div class="input-group-prepend">
                 </div>
             <input type="text" class="form-control" placeholder="Last Name"
-                aria-label="Last Name" aria-describedby="basic-addon1" name ="firstName" value ="{{ $details->firstName ?? '' }}" >
+                aria-label="Last Name" aria-describedby="basic-addon1" name ="lastname"  required >
         </div>
     </div>
 
@@ -60,7 +62,7 @@
             <div class="input-group-prepend">
                 </div>
             <input type="text" class="form-control" placeholder="example@mail.com"
-                aria-label="Email" aria-describedby="basic-addon1" name ="email" value ="{{ $details->firstName ?? '' }}" >
+                aria-label="Email" aria-describedby="basic-addon1" name ="email" required >
         </div>
     </div>
 
@@ -70,8 +72,8 @@
             <div class="input-group-prepend">
                 </div>
 
-                <select class="form-control" required > 
-                <option> Select </option>
+                <select class="form-control" required name ="type"> 
+                <option value =""> Select </option>
                 <option> Accommodation Assistance </option>
                 <option> VISA Assistance </option>
                 <option> Ticket Assistance </option>
@@ -94,6 +96,7 @@
     <div class="col-lg-10 text-center" >
    
     <button type="submit" class="btn btn-primary btn-lg"> Pay Via PayPal </button>
+</form>
 </div>
 </div>
 
