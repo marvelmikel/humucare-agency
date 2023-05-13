@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Application;
 use Srmklive\PayPal\Services\PayPal as PayPalClient;
+use Mail;
+use App\Mail\AssistanceApplication;
+
 class ApplicationController extends Controller
 {
     //a
@@ -24,10 +27,21 @@ class ApplicationController extends Controller
             'email' =>  'required',
             'type' => 'required',
         ]);
+        
+
+    if(empty($request->session()->get('details'))){
         $details = new Application ();
         $details->fill($info);
         $request->session()->put('details', $details);
-        
+    }
+    else{
+        $details = $request->session()->get('details');
+        $details->fill($info);
+        $request->session()->put('details', $details);
+
+    }
+
+
         $provider = new PayPalClient;
         $provider->setApiCredentials(config('paypal'));
         $paypalToken = $provider->getAccessToken();        
@@ -79,6 +93,13 @@ class ApplicationController extends Controller
             ]; 
             
             $details = $request->session()->get('details');
+            $detail = [
+                'email' => $details['email'],
+                'lastname'=> $details['lastname'],
+                'firstname' =>$details['firstname'],
+                'type'=> $details['type'],
+            ];
+            \Mail::to('agency@humucarecleaning.co.uk')->send(new \App\Mail\AssistanceApplication($detail));
             $details = fill($status);
             $details->save();
             $request->session()->flush();

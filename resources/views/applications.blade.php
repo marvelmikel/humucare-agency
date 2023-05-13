@@ -61,7 +61,7 @@
         <div class="input-group" style ="padding-top:10px;">
             <div class="input-group-prepend">
                 </div>
-            <input type="text" class="form-control" placeholder="example@mail.com"
+            <input type="email" class="form-control" placeholder="example@mail.com"
                 aria-label="Email" aria-describedby="basic-addon1" name ="email" required >
         </div>
     </div>
@@ -74,11 +74,11 @@
 
                 <select class="form-control" required name ="type"> 
                 <option value =""> Select </option>
-                <option> Accommodation Assistance </option>
-                <option> VISA Assistance </option>
-                <option> Ticket Assistance </option>
-                <option> Global Talent VISA </option>
-                <option> Lawyer or Accountant Assistance </option>
+                <option value="Accommodation Assistance"> Accommodation Assistance </option>
+                <option value =" VISA Assistance "> VISA Assistance </option>
+                <option value ="Ticket Assistance"> Ticket Assistance </option>
+                <option value ="Global Talent VISA"> Global Talent VISA </option>
+                <option value ="Lawyer or Accountant Assistance"> Lawyer or Accountant Assistance </option>
                 </select>
         </div>
     </div>
