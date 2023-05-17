@@ -2,11 +2,14 @@
 
 @section('content')
         <div class="main-wrapper">
-        <section class="hero bg_img" style="background-image: url({{URL::asset('https://media.istockphoto.com/photos/caregiver-assist-senior-woman-at-home-picture-id1296176562?k=20&m=1296176562&s=612x612&w=0&h=j9GeICDzkd4Ko4H_I5g2t6360HBoxKtkFVIhIgi-C0E=')}}">
-	<div class="container">
+        <section class="hero bg_img">
+        <video autoplay loop muted plays-inline id="background-clip">
+        <source src="asset/video/3.mp4" type="video/mp4" alt="background Image" />
+      </video>
+        <div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
-				<h4 style="font-size: 30px " class="hero__title text-white">Let us provide you with right-quality care <br> Best Cleaning Service. <br>
+				<h4 style="font-size: 30px" class="hero__title text-white">Let us provide you with right-quality care <br> Best Cleaning Service. <br>
                     Provide assistance to individuals looking for Sponsorship.</h4>
 			</div>
 		</div><!-- row end -->

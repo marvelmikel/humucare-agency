@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="asset/css/line-awesome.min.css">
 
 <link rel="stylesheet" href="asset/css/style.css">
+<link rel="stylesheet" href="asset/css/videoStyle.css">
 
 <!--[if lt IE 9]>
 			<script src="assets/js/html5shiv.min.js"></script>
