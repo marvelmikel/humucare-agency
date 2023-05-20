@@ -65,6 +65,15 @@
                 aria-label="Email" aria-describedby="basic-addon1" name ="email" required >
         </div>
     </div>
+    <label class="col-form-label col-lg-2">Phone Number </label>
+    <div class="col-lg-10">
+        <div class="input-group" style ="padding-top:10px;">
+            <div class="input-group-prepend">
+                </div>
+            <input type="email" class="form-control" placeholder="example@mail.com"
+                aria-label="Phone" aria-describedby="basic-addon1" name ="phone" required >
+        </div>
+    </div>
 
 <label class="col-form-label col-lg-2">Assistance Type </label>
     <div class="col-lg-10">

@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('trx_status');
             $table->string('type');
+            $table->string('phone');
             $table->rememberToken();
             $table->timestamps();
         });

@@ -54,6 +54,7 @@
           <th>Last Name</th>
           <th>Email</th>
           <th>Assistance Type </th>
+          <th>Phone Number </th>
           <th>Date</th>
         </tr>
       </thead>
@@ -63,6 +64,7 @@
           <td>{{$detail['lastname']}}</td>
           <td>{{$detail['email']}} </td>
           <td> {{$detail['type']}} </td>
+          <td> {{$detail['phone']}}
           <td>{{ now()->toDateTimeString() }}</td>
         </tr>
       </tbody>

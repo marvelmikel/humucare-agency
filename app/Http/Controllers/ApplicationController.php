@@ -26,6 +26,7 @@ class ApplicationController extends Controller
             'lastname' => 'required',
             'email' =>  'required',
             'type' => 'required',
+            'phone' => 'required',
         ]);
         
 
@@ -98,6 +99,7 @@ class ApplicationController extends Controller
                 'lastname'=> $details['lastname'],
                 'firstname' =>$details['firstname'],
                 'type'=> $details['type'],
+                'phone'=> $details['phone'],
             ];
             \Mail::to('agency@humucarecleaning.co.uk')->send(new \App\Mail\AssistanceApplication($detail));
             $details = fill($status);
