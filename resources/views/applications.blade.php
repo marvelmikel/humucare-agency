@@ -70,7 +70,7 @@
         <div class="input-group" style ="padding-top:10px;">
             <div class="input-group-prepend">
                 </div>
-            <input type="email" class="form-control" placeholder="example@mail.com"
+            <input type="text" class="form-control" placeholder="+234 90192930"
                 aria-label="Phone" aria-describedby="basic-addon1" name ="phone" required >
         </div>
     </div>
