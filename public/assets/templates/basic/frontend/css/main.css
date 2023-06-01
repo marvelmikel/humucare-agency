@@ -3010,6 +3010,8 @@ label {
     bottom: 0;
     right: 0;
     z-index: -1;
+    width:100%;
+    height:auto;
 }
 
 @media (min-aspect-ratio: 16/9) {
