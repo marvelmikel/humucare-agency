@@ -3,15 +3,15 @@
 @section('content')
         <div class="main-wrapper">
         <section class="hero bg_img">
-        <video autoplay loop muted plays-inline id="background-clip">
-        <source src="asset/video/3.mp4" type="video/mp4" alt="background Image" />
-      </video>
+            <video autoplay loop muted playsinline id="background-clip">
+                <source src="{{ asset('asset/video/3.mp4') }}" type="video/mp4" alt="background Image" />
+            </video>
         <div class="container">
 		<div class="row justify-content-center">
-			<div class="col-lg-7 text-center">
+			{{-- <div class="col-lg-7 text-center">
 				<h4 style="font-size: 30px" class="hero__title text-white">Let us provide you with right-quality care <br> Best Cleaning Service. <br>
                     Provide assistance to individuals looking for Sponsorship.</h4>
-			</div>
+			</div> --}}
 		</div><!-- row end -->
 
 	</div>
@@ -27,6 +27,8 @@
             <div class="row justify-content-center">
                 <div class="col-xxl-6 col-xl-7 col-lg-8">
                     <div class="section-header text-center">
+                        <h4 style="font-size: 25px " class="section-title text-white">Let us provide you with right-quality care <br> Best Cleaning Service. <br>
+                            Provide assistance to individuals looking for Sponsorship.</h4>
                         <h4 style="font-size: 25px " class="section-title text-white">Care givers, Nannies , Cleaners and ChildMinders You can Trust.</h4>
                         <p class="mt-2 text-white">Feel better in the comfort of your own home. We specialize in care and daily living assistance, for babies,
                              young stars, old and vulnerables. Whether you need daily or weekly assistance due to
@@ -79,7 +81,7 @@
             <div class="col-lg-5 text-lg-start text-center">
 
                      <br>
-                     <h4 style="font-size: 15px " class="cta-title">As infants ,our aspirations is to grow old and still be useful to our family and the society but as we grow old,
+                     <h4 style="font-size: 15px " class="cta-title">As Infants ,our aspirations is to grow old and still be useful to our family and the society but as we grow old,
                           nature ,nurtures us to be children again and as such we need love and care hygienically, which is where Humucare and cleaning agency comes in.</h4>
                           <br>
                           <h4 style="font-size: 15px " class="cta-title">Our services include caring for ​ children ,babies, people with dementia, learning disabilities, conditions, physical disabilities, and supports for adults and teenagers.
@@ -322,7 +324,7 @@ Beautiful cleaners and patient"</p>
             </div>
             <div class="col-lg-7">
                 <div class="row gy-4 justify-content-center" >
-                                            
+
                         <div class="col-md-6">
                             <div class="package-card">
 
@@ -350,8 +352,8 @@ Beautiful cleaners and patient"</p>
                                         <div class="package-card__price">£5 <sub>/ for other international countries</sub></div>
                                     </div>
                                 </div>
-                                
-                               
+
+
                                 <div class="package-card__footer">
                                      <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Apply</a>
                                 </div>
@@ -438,7 +440,7 @@ Beautiful cleaners and patient"</p>
                                         <div class="package-card__price">£50<sub>/ for other international countries</sub></div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="package-card__content">
                                     <ul class="package-card__feature-list">
                                         <li>Full job and School Description<span class="badge badge--base">guaranteed visa</span></li>
