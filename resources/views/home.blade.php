@@ -1,9 +1,8 @@
 @extends('layout.app')
 
 @section('content')
-        <div class="main-wrapper">
-        <section class="hero bg_img">
-            <video autoplay loop muted playsinline id="background-clip">
+       <section class="hero">
+        <video autoplay loop muted playsinline id="background-clip">
                 <source src="{{ asset('asset/video/3.mp4') }}" type="video/mp4" alt="background Image" />
             </video>
         <div class="container">
