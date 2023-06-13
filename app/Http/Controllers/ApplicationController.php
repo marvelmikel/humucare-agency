@@ -92,17 +92,20 @@ class ApplicationController extends Controller
             $status = [
                 'trx_status' => $response['status']
             ]; 
+           
             
             $details = $request->session()->get('details');
+            $details->fill($status);
             $detail = [
                 'email' => $details['email'],
                 'lastname'=> $details['lastname'],
                 'firstname' =>$details['firstname'],
                 'type'=> $details['type'],
                 'phone'=> $details['phone'],
+                'trx_status'=> $status,
             ];
             \Mail::to('agency@humucarecleaning.co.uk')->send(new \App\Mail\AssistanceApplication($detail));
-            $details = fill($status);
+
             $details->save();
             $request->session()->flush();
 
