@@ -61,17 +61,17 @@
 
 
  <div class="main-wrapper">
- <section class="cta-section pt-80 pb-80" id="about">
+ <section class=" pt-80 pb-80" id="about">
     <div class="container">
-        <div class="row">
-        <div class="col-lg-12 text-center ">
-            <video controls autoplay>
+    <div class="row justify-content-center">
+            <div class="col-xxl-6 col-xl-7 col-lg-8">
+       
+            <video controls autoplay width=100%; height=auto;>
             <source src="{{ asset('asset/video/3.mp4') }}" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
-            </video>
         </div>
         </div>
-
+        
 </div>
 </section>
 
