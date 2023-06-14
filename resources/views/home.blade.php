@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-   
+
        <section class="hero">
         <video autoplay loop muted playsinline id="background-clip">
                 <source src="{{ asset('asset/video/3.mp4') }}" type="video/mp4" alt="background Image" />
@@ -68,9 +68,10 @@
             <video controls autoplay>
             <source src="{{ asset('asset/video/3.mp4') }}" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
+            </video>
         </div>
         </div>
-        
+
 </div>
 </section>
 
@@ -783,7 +784,7 @@ Beautiful cleaners and patient"</p>
       $('#iframeAudio').remove()
   }
   else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background
   }
         </script>
     @endsection
