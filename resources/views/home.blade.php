@@ -1,6 +1,7 @@
 @extends('layout.app')
 
 @section('content')
+   
        <section class="hero">
         <video autoplay loop muted playsinline id="background-clip">
                 <source src="{{ asset('asset/video/3.mp4') }}" type="video/mp4" alt="background Image" />
@@ -60,7 +61,18 @@
 
 
  <div class="main-wrapper">
-
+ <section class="cta-section pt-80 pb-80" id="about">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12 text-center ">
+            <video controls autoplay>
+            <source src="{{ asset('asset/video/3.mp4') }}" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </div>
+        </div>
+        
+</div>
+</section>
 
         <section class="cta-section pt-80 pb-80" id="about">
     <div class="container">
@@ -765,4 +777,13 @@ Beautiful cleaners and patient"</p>
     </div>
 </section>
     </div>
+    <script>
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
+        </script>
     @endsection
