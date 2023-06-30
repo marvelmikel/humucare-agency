@@ -129,7 +129,7 @@
                                     <div class="col-md-10">
                                         <div class="checkbox">
                                             <label>
-                                                <input type="radio" name="diabilityConfirm" value ="1" {{{ (isset($details->disabilityConfirm) && $details->disabilityConfirm == '1') ? "checked" : "" }}}> Yes
+                                                <input type="radio" name="disabilityConfirm" value ="1" {{{ (isset($details->disabilityConfirm) && $details->disabilityConfirm == '1') ? "checked" : "" }}}> Yes
                                             </label>
                                         </div>
                                         <div class="checkbox">

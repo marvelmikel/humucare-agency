@@ -17,7 +17,7 @@
                                <form  action ="/humcareform-step-three"  method ="post"> 
                                 @csrf
                                 <div class="form-group row">
-                                    <label class="col-form-label col-md-10">Do you have a disability which is relevant to your application?</label>
+                                    <label class="col-form-label col-md-10"> Do you have a disability which is relevant to your application?</label>
                                     <div class="col-md-10">
                                         <div class="checkbox">
                                             <label>

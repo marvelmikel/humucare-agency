@@ -1,6 +1,7 @@
 @extends('layout.form')
 
 @section('content')
+@include('partials.notify')
 <div class="page-wrapper">
         <div class="content container-fluid">
         <div class="card">

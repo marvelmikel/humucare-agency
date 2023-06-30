@@ -61,7 +61,7 @@ public function postFormStepTwo (Request $request) {
         'courseDuration' =>'required',
         'personalStatement' =>'required',
         'conviction'=>'required',
-        'convictionDetails'=>'required',
+        'convictionDetails'=>'sometimes',
         'underTaking'=>'required',
     ]);  
   
@@ -81,7 +81,7 @@ public function postFormStepTwo (Request $request) {
 
   public function postFormStepThree (Request $request){
     $validatedData = $request->validate([
-    'offence' =>'required',
+    'offence' =>'sometimes',
     'disability' =>'required',
   'sicknessAbsence' =>'required', 
   'refereeName1' =>'required',
@@ -127,7 +127,7 @@ public function postFormStepTwo (Request $request) {
     'postApplication'=>'required',
     'ethnicGroup'=>'required',
     'gender'=>'required',
-    'diabilityConfirm'=>'required',
+    'disabilityConfirm'=>'required',
     'presentStatus'=>'required',
     'age'=>'required',
    ]);
@@ -146,7 +146,7 @@ public function postFormStepTwo (Request $request) {
   
   public function postFormStepFive(Request $request){
 
-
+    
     $request->validate([
       'passportBirth'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
       'proofOfWork'=>'required|mimes:png,jpg,jpeg,pdf|max:20488',

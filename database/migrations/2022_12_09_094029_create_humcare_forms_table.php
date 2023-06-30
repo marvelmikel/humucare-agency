@@ -58,7 +58,7 @@ return new class extends Migration
         $table->longText('convictionDetails')->nullable();
         $table->boolean('underTaking');
         $table->boolean('disability');
-        $table->string('offence');
+        $table->string('offence')->nullable();
         $table->string('sicknessAbsence')->nullable(); 
         $table->text('refereeName1');
         $table->text('refereePosition1'); 
@@ -85,7 +85,7 @@ return new class extends Migration
         $table->text('postApplication');
         $table->text('ethnicGroup');
         $table->text('gender');
-        $table->boolean('diabilityConfirm');
+        $table->boolean('disabilityConfirm')->nullable();
         $table->text('presentStatus');
         $table->text('age');
         $table->text('passportBirth');
