@@ -94,7 +94,7 @@ s0.parentNode.insertBefore(s1,s0);
                                                    <li><a href="#r">Reviews</a></li>
                                                     <li><a href="#s">Cleaning Services</a></li>
 
-                                                   <li><a href="https://humucarecleaningtraining.zoeplusprojects.com/courses">Humucarecleaning Courses</a></li>
+                                                   <li><a href="https://training.humucarecleaning.co.uk/courses">Humucarecleaning Courses</a></li>
 
                                                    <li><a href="https://mannie.ac/">Humucare Shop</a></li>
                                             </ul>
