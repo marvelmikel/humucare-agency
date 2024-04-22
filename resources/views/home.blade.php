@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row justify-content-center" style="display: flex; align-items: flex-end;">
                 <div class="col-lg-7 text-center">
-                    <h2 id="typing-text" style="margin-top: 120px; font-weight: bold;" class="text-center text-white"></h2>
+                    <h2 id="typing-text" style="margin-top: 300px; font-weight: bold;" class="text-center text-white"></h2>
                 </div>
             </div>
         </div>
