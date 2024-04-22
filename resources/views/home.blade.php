@@ -47,7 +47,7 @@
                     <br>
                     <h2 class="cta-title">Sponsorship Assistance </h2>
                     <p class="mt-3 text-black" style="font-size: 20px;">n addition to our caregiving and cleaning services, Humucare also provides assistance to individuals looking for sponsorship. Whether you're seeking sponsorship for employment or other purposes, our team is here to guide you through the process and offer support every step of the way.</p>
-                    <a href="" class="btn btn--base mt-4">More Info >></a>
+                    <a href="#s" class="btn btn--base mt-4">More Info >></a>
                 </div>
             </div>
         </div>
