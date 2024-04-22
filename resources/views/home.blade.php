@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row justify-content-center" style="display: flex; align-items: flex-end;">
                 <div class="col-lg-7 text-center">
-                    <h2 id="typing-text" style="margin-top: 300px; font-weight: bold;" class="text-center text-white"></h2>
+                    <h2 id="typing-text" style="margin-top: 100%; font-weight: bold;" class="text-center text-white"></h2>
                 </div>
             </div>
         </div>
@@ -927,20 +927,16 @@
     <script>
         const text = "WELCOME TO HUMUCARE.            Your Premier Cleaning And Assistance Service Provider.";
         let index = 0;
-        const speed = 100; // Adjust the typing speed as needed
+    const speed = 100; // Adjust the typing speed as needed
 
-        function typeText() {
-            if (index < text.length) {
-                document.getElementById("typing-text").innerHTML += text.charAt(index);
-                index++;
-                setTimeout(typeText, speed);
-            } else {
-                index = 0;
-                document.getElementById("typing-text").innerHTML = "";
-                setTimeout(typeText, speed); // Restart typing after clearing the text
-            }
+    function typeText() {
+        if (index < text.length) {
+            document.getElementById("typing-text").innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeText, speed);
         }
+    }
 
-        typeText();
+    typeText();
     </script>
 @endsection
