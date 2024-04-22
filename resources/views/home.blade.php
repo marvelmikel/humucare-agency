@@ -1,16 +1,17 @@
 @extends('layout.app')
 
 @section('content')
-    <section class="hero"
-        style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-repeat: no-repeat; background-size: cover; background-position: center;">
-        <div class="container">
-            <div class="row justify-content-center" style="display: flex; align-items: flex-end;">
-                <div class="col-lg-7 text-center">
-                    <h2 id="typing-text" style="margin-top: 50%; font-weight: bold;" class="text-center text-white"></h2>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="hero-banner"
+style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-size: cover; background-position: center;">
+<div class="container">
+<div class="row align-items-center" style="height: 100vh;">
+    <div class="col-lg-7 text-center">
+        <h1 id="typing-text" class="display-4 text-white font-weight-bold"></h1>
+        <p  class="lead text-white">Your Premier Cleaning And Assistance Service Provider</p>
+    </div>
+</div>
+</div>
+</section>
 
 
     <section class="cta-section pt-80 pb-80" id="about">
@@ -24,13 +25,14 @@
                 </div>
                 <div class="col-lg-5 text-lg-start text-center">
                     <h2 class="cta-title">About Us</h2>
-                      <p class="mt-3 text-black" style="font-size: 20px;">Humucare is your ultimate destination for top-quality cleaning and care services. Our dedicated team consists of caregivers, nannies, cleaners, and childminders who are committed to providing exceptional assistance and support. With a focus on cleanliness and hygiene, we ensure that your home, school, office, or any other space receives the best cleaning service possible.
+                      <p class="mt-3 text-black" style="font-size: 20px;"> Humucare is your ultimate destination for top-quality cleaning and care services. Our dedicated team consists of caregivers, nannies, cleaners, and childminders who are committed to providing exceptional assistance and support. With a focus on cleanliness and hygiene, we ensure that your home, school, office, or any other space receives the best cleaning service possible.
                     </p>
                     <a href="/humcareform" class="btn btn--base mt-4">Register Now</a>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="cta-section pt-80 pb-80">
         <div class="container">
             <div class="row gy-4 justify-content-between align-items-center">
@@ -925,9 +927,9 @@
     </script>
 
     <script>
-        const text = "WELCOME TO HUMUCARE.            Your Premier Cleaning And Assistance Service Provider.";
+        const text = "WELCOME TO HUMUCARE.";
         let index = 0;
-    const speed = 100; // Adjust the typing speed as needed
+    const speed = 100;
 
     function typeText() {
         if (index < text.length) {
