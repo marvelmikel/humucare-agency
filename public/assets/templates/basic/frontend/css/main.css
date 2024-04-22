@@ -2619,6 +2619,7 @@ label {
 .header .site-logo img {
     max-width: 10.9375rem;
     max-height: 3.75rem;
+    margin-right: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -4678,7 +4679,7 @@ blockquote {
 .footer-section__top {
     padding-top: 6.25rem;
     padding-bottom: 5rem;
-    background-color: #0f878d;
+    background-color: #14223D;
 }
 
 .footer-section p,
