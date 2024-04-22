@@ -7,7 +7,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
 <div class="row align-items-center" style="height: 100vh;">
     <div class="col-lg-7 text-center">
         <h1 id="typing-text" class="display-4 text-white font-weight-bold"></h1>
-        <p  class="lead text-white">Your Premier Cleaning And Assistance Service Provider</p>
+        <p  class="lead text-white">Your Premier cleaning,nannies,care  and home assistant providers</p>
     </div>
 </div>
 </div>
@@ -43,12 +43,12 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                     </div>
                 </div>
                 <div class="col-lg-5 text-lg-start text-center">
-                    <h2 class="cta-title">Our Services</h2>
+                    <h3 class="cta-title">Our Services</h3>
                       <p class="mt-3 text-black" style="font-size: 20px;">Humucare is your ultimate destination for top-quality cleaning and care services. Our dedicated team consists of caregivers, nannies, cleaners, and childminders who are committed to providing exceptional assistance and support. With a focus on cleanliness and hygiene, we ensure that your home, school, office, or any other space receives the best cleaning service possible.
                     </p>
                     <br>
                     <h2 class="cta-title">Sponsorship Assistance </h2>
-                    <p class="mt-3 text-black" style="font-size: 20px;">n addition to our caregiving and cleaning services, Humucare also provides assistance to individuals looking for sponsorship. Whether you're seeking sponsorship for employment or other purposes, our team is here to guide you through the process and offer support every step of the way.</p>
+                    <p class="mt-3 text-black" style="font-size: 20px;">In addition to our caregiving and cleaning services, Humucare also provides assistance to individuals looking for sponsorship. Whether you're seeking sponsorship for employment or other purposes, our team is here to guide you through the process and offer support every step of the way.</p>
                     <a href="#s" class="btn btn--base mt-4">More Info >></a>
                 </div>
             </div>
@@ -265,7 +265,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                 <div class="row gy-4">
                     <div class="col-lg-5 pe-lg-5" id="s">
                         <div class="package-details-wrapper">
-                            <h1 class="title text-white">Our Services</h1>
+                            <h2 class="title text-white">Our Cleaning  Services</h2>
                             <!-- <p class="mt-3 text-white">kindly supscribe for any package</p>-->
                         </div>
                     </div>
@@ -403,12 +403,13 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                 <div class="row gy-4">
                     <div class="col-lg-5 pe-lg-5">
                         <div class="package-details-wrapper">
-                            <h1 class="title text-white">Our Awesome Consultation Packages</h1>
+                            <h2 class="title text-white">Our Other Awesome Consultation Services                            </h2>
                             <!-- <p class="mt-3 text-white">kindly supscribe for any package</p>-->
                         </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="row gy-4 justify-content-center">
+
 
                             <div class="col-md-6">
                                 <div class="package-card">
@@ -510,19 +511,19 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                             <i class="las la-user"></i>
                                         </div>
                                         <div class="content">
-                                            <h3 class="package-card__name">Health Workers & Student's</h3>
+                                            <h3 class="package-card__name">Forklift Service</h3>
                                             {{-- <div class="package-card__price">₦100,000<sub>/for Nigerians</sub></div> --}}
                                         </div>
                                     </div>
                                     <div class="package-card__content">
                                         <ul class="package-card__feature-list">
-                                            <li>Full job and School Description<span class="badge badge--base">guaranteed
-                                                    visa</span></li>
+                                            <li>Get a Quote on Our Forklift Service
+                                                {{-- <span class="badge badge--base">guaranteed
+                                                    visa</span> --}}
+                                                </li>
                                     </div>
                                     <div class="package-card__footer">
-                                        <a href="javascript:void(0)" data-bs-toggle="modal" data-plan_id="1"
-                                            data-bs-target="#exampleModal2"
-                                            class="btn btn--dark w-100 mt-4 planSubscribe">Request</a>
+                                        <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Request for a Quoet</a>
                                     </div>
                                 </div>
                             </div>
@@ -554,6 +555,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

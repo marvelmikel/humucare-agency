@@ -25,7 +25,7 @@
     <div class="card">
 
 <div class="card-body">
-   <h1> Humucare Assistance Application </h1>
+   <h1> Humucare Service Quote Form </h1>
 <div class="row">
 <div class="col-lg-12">
 <div class="card">
@@ -45,7 +45,7 @@
                 aria-label="First Name" aria-describedby="basic-addon1" name ="firstname" required >
         </div>
     </div>
-    
+
     <label class="col-form-label col-lg-2">Last  Name</label>
     <div class="col-lg-10">
         <div class="input-group" style ="padding-top:10px;">
@@ -75,36 +75,27 @@
         </div>
     </div>
 
-<label class="col-form-label col-lg-2">Assistance Type </label>
+<label class="col-form-label col-lg-2">Service Type </label>
     <div class="col-lg-10">
         <div class="input-group" style ="padding-top:10px;">
             <div class="input-group-prepend">
                 </div>
 
-                <select class="form-control" required name ="type"> 
+                <select class="form-control" required name ="type">
                 <option value =""> Select </option>
                 <option value="Accommodation Assistance"> Accommodation Assistance </option>
                 <option value =" VISA Assistance "> VISA Assistance </option>
+                <option value ="Forklift Service">Forklift Service</option>
                 <option value ="Ticket Assistance"> Ticket Assistance </option>
                 <option value ="Global Talent VISA"> Global Talent VISA </option>
                 <option value ="Lawyer or Accountant Assistance"> Lawyer or Accountant Assistance </option>
                 </select>
         </div>
     </div>
-    <label class="col-form-label col-lg-2">Fee Payable </label>
-    <div class="col-lg-10">
-        <div class="input-group" style ="padding-top:10px;">
-            <div class="input-group-prepend">
-            <span class="input-group-text">£</span>
-                </div>
-            <input type="text" class="form-control" placeholder="example@mail.com"
-                aria-label="Email" aria-describedby="basic-addon1" name ="amount" value ="5.00" disabled >
-        </div>
-    </div>
     <div class="input-group" style ="padding-top:10px;">
     <div class="col-lg-10 text-center" >
-   
-    <button type="submit" class="btn btn-primary btn-lg"> Pay Via PayPal </button>
+
+    <button type="submit" class="btn btn-primary btn-lg"> Submit </button>
 </form>
 </div>
 </div>
