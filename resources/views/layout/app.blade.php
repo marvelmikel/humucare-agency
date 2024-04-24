@@ -138,7 +138,7 @@
 
     @yield('content')
 
-    <!--<div class="cookie__wrapper ">
+    <div class="cookie__wrapper ">
      <div class="container">
        <div class="d-flex flex-wrap align-items-center justify-content-between">
          <p class="txt my-2">
@@ -147,7 +147,7 @@
            <a href="javascript:void(0)" class="btn btn--base my-2 policy">Accept</a>
        </div>
      </div>
- </div>-->
+ </div>
     <footer class="footer-section">
         <div class="footer-section__top">
             <div class="container">
