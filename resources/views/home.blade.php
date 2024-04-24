@@ -425,7 +425,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                         </div>
                                     </div>
                                     <div class="package-card__footer">
-                                        <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Request </a>
+                                        <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request </a>
                                     </div>
                                 </div>
                             </div>
@@ -445,7 +445,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
 
 
                                     <div class="package-card__footer">
-                                        <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Request</a>
+                                        <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request</a>
                                     </div>
                                 </div>
                             </div>
@@ -463,7 +463,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                         </div>
                                     </div>
                                     <div class="package-card__footer">
-                                        <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Request</a>
+                                        <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request</a>
                                     </div>
                                 </div>
                             </div>
@@ -481,7 +481,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                         </div>
                                     </div>
                                     <div class="package-card__footer">
-                                        <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Request </a>
+                                        <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request </a>
                                     </div>
                                 </div>
                             </div>
@@ -499,7 +499,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                         </div>
                                     </div>
                                     <div class="package-card__footer">
-                                        <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Request</a>
+                                        <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request</a>
                                     </div>
                                 </div>
                             </div>
@@ -523,7 +523,7 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                                 </li>
                                     </div>
                                     <div class="package-card__footer">
-                                        <a href="/applications" class="btn btn--dark w-100 mt-4 planSubscribe">Request for a Quoet</a>
+                                        <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request for a Quoet</a>
                                     </div>
                                 </div>
                             </div>
@@ -549,9 +549,12 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                                 visa</span></li>
                                 </div>
                                 <div class="package-card__footer">
-                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-plan_id="1"
+                                    <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request for a Quoet</a>
+                                    
+                                    //paypal button
+                                    {{-- <a href="javascript:void(0)" data-bs-toggle="modal" data-plan_id="1"
                                         data-bs-target="#exampleModal"
-                                        class="btn btn--dark w-100 mt-4 planSubscribe">Request </a>
+                                        class="btn btn--dark w-100 mt-4 planSubscribe">Request </a> --}}
                                 </div>
                             </div>
                         </div>

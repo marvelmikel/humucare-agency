@@ -50,7 +50,7 @@ class SenderNotification extends Notification
         return (new MailMessage)
                     ->mailer('smtp')
                     ->subject($this->subject)
-                    ->greeting('Hello!, '  . $notifiable->fullname)
+                    ->greeting('Hello!, '  . $notifiable->firstname  . ' ' . $notifiable->lastname)
                     ->line($this->message)
                     ->line('Phone Number: ' . $notifiable->phone)
                     ->line('Type: ' . $notifiable->type);

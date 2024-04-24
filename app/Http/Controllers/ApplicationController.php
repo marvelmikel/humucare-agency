@@ -19,7 +19,8 @@ class ApplicationController extends Controller
     {
         // Validate the form data
         $validatedData = $request->validate([
-            'fullname' => 'required|string',
+            'firstname' => 'required|string',
+            'lastname' => 'required|string',
             'email' => 'required|email',
             'phone' => 'required|string',
             'type' => 'required|string',
@@ -27,7 +28,8 @@ class ApplicationController extends Controller
 
         // Save the form data to the database
         $application = new Application();
-        $application->fullname = $validatedData['fullname'];
+        $application->firstname = $validatedData['firstname'];
+        $application->lastname = $validatedData['lastname'];
         $application->email = $validatedData['email'];
         $application->phone = $validatedData['phone'];
         $application->type = $validatedData['type'];
@@ -36,8 +38,11 @@ class ApplicationController extends Controller
           // Notify the sender
           $application->notify(new SenderNotification());
 
-        // Send email notification to the user
-        // Mail::to($validatedData['email'])->send(new AssistanceApplication($validatedData));
+   
+       
+        //Send email notification to the user
+        Mail::to('agency@humucarecleaning.co.uk')->send(new AssistanceApplication($application));
+
         
     
         return redirect()->back()->with('success', 'Request submitted successfully! We will get back to you shortly.');

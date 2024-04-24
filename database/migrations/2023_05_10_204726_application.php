@@ -16,7 +16,8 @@ return new class extends Migration
         //
         Schema::create('applications', function (Blueprint $table) {
             $table->id();
-            $table->string('fullname');
+            $table->string('firstname');
+            $table->string('lastname');
             $table->string('email');
             $table->string('type');
             $table->string('phone');
