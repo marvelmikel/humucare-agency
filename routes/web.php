@@ -31,14 +31,19 @@ Route::post('humcareform-step-five',  [PageController::class,'postFormStepFive']
 Route::get('humcarecleanform',  [PageController::class,'humcarecleanform']);
 
 
-//
-Route::get('applications', [ApplicationController::class, 'index'])->name('createTransaction');
-Route::post('applications',[ApplicationController::class, 'store'])->name('application.store');
+Route::get('serviceRequest', [ApplicationController::class, 'index'])->name('serviceRequest');
+Route::post('/serviceRequest', [ApplicationController::class, 'serviceRequest'])->name('serviceRequest');
 
-//PayPal
-Route::post('process-transaction', [ApplicationController::class, 'processTransaction'])->name('processTransaction');
-Route::get('success-transaction', [ApplicationController::class, 'successTransaction'])->name('successTransaction');
-Route::get('cancel-transaction', [ApplicationController::class, 'cancelTransaction'])->name('cancelTransaction');
+
+
+//
+// Route::get('applications', [ApplicationController::class, 'index'])->name('createTransaction');
+// Route::post('applications',[ApplicationController::class, 'store'])->name('application.store');
+
+// //PayPal
+// Route::post('process-transaction', [ApplicationController::class, 'processTransaction'])->name('processTransaction');
+// Route::get('success-transaction', [ApplicationController::class, 'successTransaction'])->name('successTransaction');
+// Route::get('cancel-transaction', [ApplicationController::class, 'cancelTransaction'])->name('cancelTransaction');
 
 
 

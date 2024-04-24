@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('humcare_forms', function (Blueprint $table) {
-            $table->id();
+        $table->id();
         $table->string('firstName');
         $table->string('lastName');
         $table->string('address');
@@ -98,7 +98,7 @@ return new class extends Migration
         $table->text('dbsCertificate');
         $table->text('nationalInsurance');
         $table->text('curriculumVitae');
-            $table->timestamps();
+        $table->timestamps();
         });
     }
 

@@ -33,28 +33,19 @@
 <h4 class="card-title mb-0"> Application Assitance Form </h4>
 </div>
 <div class="card-body">
-<form action="{{route('processTransaction')}}" method="post">
+<form action="{{route('serviceRequest')}}" method="post">
     @csrf
 <div class="form-group row">
-<label class="col-form-label col-lg-2">First Name</label>
+<label class="col-form-label col-lg-2">Full Name</label>
     <div class="col-lg-10">
         <div class="input-group">
             <div class="input-group-prepend">
             </div>
-            <input type="text" class="form-control" placeholder="First Name"
-                aria-label="First Name" aria-describedby="basic-addon1" name ="firstname" required >
+            <input type="text" class="form-control" placeholder="Full Name"
+                aria-label="Full Name" aria-describedby="basic-addon1" name ="fullname" required >
         </div>
     </div>
 
-    <label class="col-form-label col-lg-2">Last  Name</label>
-    <div class="col-lg-10">
-        <div class="input-group" style ="padding-top:10px;">
-            <div class="input-group-prepend">
-                </div>
-            <input type="text" class="form-control" placeholder="Last Name"
-                aria-label="Last Name" aria-describedby="basic-addon1" name ="lastname"  required >
-        </div>
-    </div>
 
 <label class="col-form-label col-lg-2">Email</label>
     <div class="col-lg-10">
@@ -70,7 +61,7 @@
         <div class="input-group" style ="padding-top:10px;">
             <div class="input-group-prepend">
                 </div>
-            <input type="text" class="form-control" placeholder="+234 90192930"
+            <input type="text" class="form-control" placeholder="+44 90192930"
                 aria-label="Phone" aria-describedby="basic-addon1" name ="phone" required >
         </div>
     </div>
@@ -82,9 +73,9 @@
                 </div>
 
                 <select class="form-control" required name ="type">
-                <option value =""> Select </option>
+                <option value ="type"> Select </option>
                 <option value="Accommodation Assistance"> Accommodation Assistance </option>
-                <option value =" VISA Assistance "> VISA Assistance </option>
+                <option value ="VISA Assistance "> VISA Assistance </option>
                 <option value ="Forklift Service">Forklift Service</option>
                 <option value ="Ticket Assistance"> Ticket Assistance </option>
                 <option value ="Global Talent VISA"> Global Talent VISA </option>
@@ -114,7 +105,13 @@
 <script src="asset/js/jquery.slimscroll.min.js"></script>
 
 <script src="asset/js/app.js"></script>
-</body>
+@if(session('success'))
+    <script>
+        alert("{{ session('success') }}");
+        window.location.href = "/";
+    </script>
+@endif
+
 </body>
 
 
