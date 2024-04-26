@@ -549,8 +549,8 @@ style="background-image: url('{{ asset('asset/img/banner.jpg') }}'); background-
                                                 visa</span></li>
                                 </div>
                                 <div class="package-card__footer">
-                                    <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request for a Quoet</a>
-                                    
+                                    <a href="/serviceRequest" class="btn btn--dark w-100 mt-4 planSubscribe">Request for a Quote</a>
+
                                     //paypal button
                                     {{-- <a href="javascript:void(0)" data-bs-toggle="modal" data-plan_id="1"
                                         data-bs-target="#exampleModal"
