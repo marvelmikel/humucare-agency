@@ -12,6 +12,21 @@ class PageController extends Controller
     return view('humcareform-step-one', compact('details'));
    }
 
+   public function about()
+   {
+     return view('about');
+   }
+
+   public function home()
+   {
+     return view('home');
+   }
+
+    public function service()
+    {
+      return view('service');
+    } 
+
   public function postFormStepOne (Request $request){
 
   $validatedData = $request->validate([

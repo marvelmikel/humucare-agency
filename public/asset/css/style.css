@@ -70,7 +70,7 @@ body {
     font-family: circularstd, sans-serif;
     font-size: 0.9375rem;
     color: #bbc4cc;
-    background-color: #120b59;
+    background-color: #010306;
     min-height: 100%;
     overflow-x: hidden;
 }
@@ -2063,7 +2063,7 @@ table.dataTable thead>tr>td.sorting {
 }
 
 .card {
-    background-color: #16191c;
+    background-color:1px solid #010910;
     border: 1px solid #2e3840;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;

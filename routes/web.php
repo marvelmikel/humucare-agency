@@ -36,20 +36,13 @@ Route::post('/serviceRequest', [ApplicationController::class, 'serviceRequest'])
 
 
 
-//
-// Route::get('applications', [ApplicationController::class, 'index'])->name('createTransaction');
-// Route::post('applications',[ApplicationController::class, 'store'])->name('application.store');
 
-// //PayPal
-// Route::post('process-transaction', [ApplicationController::class, 'processTransaction'])->name('processTransaction');
-// Route::get('success-transaction', [ApplicationController::class, 'successTransaction'])->name('successTransaction');
-// Route::get('cancel-transaction', [ApplicationController::class, 'cancelTransaction'])->name('cancelTransaction');
-
-
-
-
-//Guest pages
+//Pages
+Route::get('home',  [PageController::class,'home'])->name('home');
 Route::get('about',  [PageController::class,'about'])->name('about');
+Route::get('service',  [PageController::class,'service'])->name('service');
+
+
 Route::get('job',  [PageController::class,'job'])->name('job');
 Route::get('company',  [PageController::class,'company'])->name('company');
 Route::get('contact',  [PageController::class,'contact'])->name('contact');
