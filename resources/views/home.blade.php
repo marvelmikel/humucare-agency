@@ -16,6 +16,7 @@
     </div>
 </section>
 
+
 <section class="about" id="about">
     <div>
         <div class="about-sub">
@@ -116,14 +117,12 @@
                 <div class="service-slider-img">
                     <img class="images main" src="{{ URL::asset('assets/images/nurse-with-old-patient-1.png')}}"
                         alt="Nurse and Patient" />
-                    <img class="images" src="{{ URL::asset('assets/images/man-with-basket.png" alt="Nurse and Patient ')}}" />
-                    <img class="images" src="{{ URL::asset('assets/images/patient-on-yellow-nurse.png" alt="Nurse and Patient')}}" />
+                    <img class="images" src="{{ URL::asset('assets/images/man-with-basket.png')}}" alt="Nurse and Patient" />
+                    <img class="images" src="{{ URL::asset('assets/images/patient-on-yellow-nurse.png')}}" alt="Nurse and Patient" />
                     <div class="navigation-btns-wrapper">
-                        <div class="previous navigate-btn">
-                            <img src="{{ URL::asset('assets/images/arrow-right.png')}}" alt="arrow" />
+                        <div class="previous navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" alt="arrow" />
                         </div>
-                        <div class="next navigate-btn">
-                            <img src="{{ URL::asset('assets/images/arrow-right.png')}}" /></div>
+                        <div class="next navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" /></div>
                     </div>
                 </div>
                 <div class="mobile-service-articles-wrapper">
@@ -182,76 +181,60 @@
         <div class="training-course-wrapper">
             <div class="training-course-details">
                 <div class="autoSlider-container">
-
                     <article>
                         <div>
                             <h5>Experienced and Supportive Assistance:</h5>
                             <p>Beyond just cleaning, our team provides companionship and one-on-one attention to
-                                foster a caring and trustworthy
-                                relationship with our clients. We understand that each individual has unique
-                                needs, and we strive to develop meaningful
+                                foster a caring and trustworthy relationship with our clients. We understand
+                                that each individual has unique needs, and we strive to develop meaningful
                                 connections based on trust and compassion.</p>
-
                         </div>
-
                     </article>
                     <div class="training-slider-container">
                         <img class="training-slider-img" src="{{ URL::asset('assets/images/medical-nurses-working-together.png')}}"
                             alt="Nurse and Patient" />
-
                     </div>
                 </div>
                 <div class="autoSlider-container">
-
                     <article>
                         <div>
                             <h5>Clean with Confidence:</h5>
-                            <p>HumuCare's cleaning Courses for Every Skill Level.Whether you're a beginner or a
-                                seasoned pro,our range of cleaning courses caters to all skill levels,
+                            <p>HumuCare's cleaning Courses for Every Skill Level. Whether you're a beginner or a
+                                seasoned pro, our range of cleaning courses caters to all skill levels,
                                 empowering you to clean with confidence and precision.</p>
-
                         </div>
-
                     </article>
                     <div class="training-slider-container">
                         <img class="training-slider-img"
                             src="{{ URL::asset('assets/images/afro-woman-holding-bucket-with-cleaning-items.png')}}"
                             alt="Nurse and Patient" />
-
                     </div>
                 </div>
                 <div class="autoSlider-container">
-
                     <article>
                         <div>
-                            <h5>Skill Up,Stand Out:</h5>
-                            <p>HumuCare Courses for the Next Level of Care.Stand out in your field withh
-                                HumuCare's skill-focused courses designed to equip ou with the advanced
+                            <h5>Skill Up, Stand Out:</h5>
+                            <p>HumuCare Courses for the Next Level of Care. Stand out in your field with
+                                HumuCare's skill-focused courses designed to equip you with the advanced
                                 knowledge and techniques needed to excel in caregiving.</p>
-
                         </div>
-
                     </article>
                     <div class="training-slider-container">
                         <img class="training-slider-img" src="{{ URL::asset('assets/images/nurse-taking-care-elderly-patient.png')}}"
                             alt="Nurse and Patient" />
-
                     </div>
                 </div>
             </div>
-            <di class="btn-dot-wrapper">
+            <div class="btn-dot-wrapper">
                 <button class="btn training-btn">Get started</button>
                 <div class="dots-container">
                     <div class="dot active"></div>
                     <div class="dot"></div>
-                    <div class="dot" id="currentF-training"></div>
+                    <div class="dot"></div>
                 </div>
-                <div class="btn-cont">
-                    <button class="btn pBtn">p</button>
-                    <button class="btn nBtn">N</button>
-                </div>
-            </di>
+            </div>
         </div>
+
 
     </div>
 </section>
@@ -260,33 +243,38 @@
         <h2>Contact Us</h2>
         <div class="address">
             <div>
-                <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/location.png')}}"
-                        alt="location" />
+                <div class="address-heading">
+                    <img class="contact-icons" src="{{ URL::asset('assets/images/location.png')}}" alt="location" />
                     <h3>Office Address</h3>
                 </div>
-                <h6>19 Grove Ln, Handsworth, Birmingham B21 9ES</h6>
+                <p class="address-paragraph">19 Grove Ln, Handsworth, Birmingham B21 9ES</p>
 
             </div>
             <div>
                 <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/phone.png')}}" alt="phone" />
                     <h3>Phone</h3>
                 </div>
-                <h6>+44 01214484501</h6>
-                <h6>+44 7485705519</h6>
-                <h6>+44 7449688883</h6>
+                <p class="address-paragraph">+44 01214484501</p>
+                <p class="address-paragraph">+44 7485705519</p>
+                <p class="address-paragraph">+44 7449688883</p>
 
             </div>
             <div>
                 <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/mail.png')}}" alt="mail" />
                     <h3>Email</h3>
                 </div>
-                <h6>agency@humucarecleaning.co.uk</h6>
+                <p class="address-paragraph">agency@humucarecleaning.co.uk</p>
 
             </div>
         </div>
         <div class="map">
-            <img src="{{ URL::asset('assets/images/map.png')}}" alt="map" />
-
+            <div style="width: 100%">
+                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Birmingham+(humucare)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.gps.ie/">gps systems</a>
+                </iframe>
+            </div>
         </div>
     </div>
 </section>

@@ -4,12 +4,14 @@
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif, "Roboto Serif";
 }
+
 body {
   margin: 0;
   position: relative;
   background: linear-gradient(89.38deg, #85d5f7 -8.33%, #120b59 162.53%);
   /* overflow: hidden; */
 }
+
 .hero.hide,
 .about.hide,
 .testimonials.hide,
@@ -22,73 +24,23 @@ body {
   /* transform: translateY(-50px); */
   /* border: 1px solid red; */
 }
+
 main {
   width: 100%;
   position: absolute;
   top: 0px;
   left: 0;
 }
-body > img {
+
+body>img {
   position: relative;
   width: 100%;
   height: 100%;
   max-height: 1778.77px;
   overflow: hidden;
 }
-header {
-  position: sticky;
-  top: 0px;
-  left: 0px;
-  padding: 16px 0px;
-  background: rgba(217, 235, 242, 0.5);
-  box-shadow: 0px 0px 6.3px 0px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  z-index: 1000;
-}
-.navbar {
-  width: 80%;
-  overflow: hidden;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 21.82px;
-}
-.nav-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-}
-.navbar a {
-  float: left;
-  display: block;
-  color: #1e2223;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  cursor: pointer;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  width: 50%;
-  justify-content: space-between;
-}
-#couresMobileBtn,
-#loginMobileBtn {
-  display: none;
-}
-.navbar .icon {
-  display: none;
-}
-.btn {
-  background: rgba(18, 11, 89, 1);
-  color: white;
-  border-radius: 4px;
-  padding: 10px;
-  cursor: pointer;
-  border: none;
-}
+
+
 .hero {
   display: flex;
   justify-content: center;
@@ -97,6 +49,7 @@ header {
   overflow: hidden;
   margin: 2rem auto;
 }
+
 h2 {
   font-size: 50px;
   font-weight: 700;
@@ -104,29 +57,35 @@ h2 {
   line-height: 58.56px;
   font-family: "Roboto Serif";
 }
+
 p {
   font-size: 20px;
   line-height: 27.29px;
   color: #1e2223;
   font-weight: 700;
 }
+
 h4 {
   color: white;
   font-weight: 900;
   line-height: 43.66px;
   font-size: 32px;
 }
+
 h5 {
   font-weight: 800;
   font-size: 24px;
   line-height: 32.74px;
 }
+
 #current {
   background: #ffffff;
 }
+
 #current-training {
   background: #94d9f8;
 }
+
 .hero-sub {
   padding: 0px, 20px;
   display: flex;
@@ -134,6 +93,7 @@ h5 {
   z-index: 1;
   gap: 4px;
 }
+
 .hero-info {
   display: flex;
   flex-direction: column;
@@ -141,10 +101,12 @@ h5 {
   gap: 10px;
   width: 60.12%;
 }
+
 .hero-info h2 {
   max-width: 480px;
   margin-bottom: 10px;
 }
+
 .hero-btn {
   width: 180px;
   background: rgba(217, 235, 242, 0.25);
@@ -157,11 +119,13 @@ h5 {
   line-height: 32.74px;
   transition: all 1s ease;
 }
+
 .hero-btn:hover {
   background-color: #ffffff;
   transition: all 1s ease-in-out;
   transform: scale(1.1);
 }
+
 .nurse-old-woman {
   background: rgba(217, 235, 242, 0.25);
   padding: 24px;
@@ -169,10 +133,10 @@ h5 {
   position: relative;
   width: 720px;
   height: 530px;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 
-.nurse-old-woman > img {
+.nurse-old-woman>img {
   width: 100%;
   height: 100%;
   border-radius: 42px;
@@ -180,12 +144,14 @@ h5 {
   top: 0;
   left: 0;
 }
-.nurse-old-woman > img:hover {
+
+.nurse-old-woman>img:hover {
   translate: 20px 15px 30px;
   overflow: visible;
   width: 650px;
   height: 540px;
   cursor: pointer;
+  transition: 1s ease;
 }
 
 .about {
@@ -197,9 +163,11 @@ h5 {
   overflow: hidden;
   height: 887px;
 }
-.about > div {
+
+.about>div {
   width: 80%;
 }
+
 .about-sub {
   width: 92%;
   margin-top: 163px;
@@ -210,6 +178,7 @@ h5 {
   text-align: start;
   padding: 40px;
 }
+
 .about-sub p {
   margin-top: 42px;
   margin-bottom: 60px;
@@ -217,6 +186,7 @@ h5 {
   max-width: 440px;
   z-index: 1;
 }
+
 .req-btn {
   border: none;
   width: 30%;
@@ -225,6 +195,7 @@ h5 {
   font-weight: 700;
   line-height: 32px;
 }
+
 .nurse-container {
   width: 700px;
   height: 1053px;
@@ -232,16 +203,19 @@ h5 {
   top: 0px;
   right: 72px;
 }
+
 .nurser-container img {
   width: 80%;
 }
+
 .testimonials {
   display: flex;
   justify-content: center;
   position: relative;
   overflow: hidden;
 }
-.testimonials > img {
+
+.testimonials>img {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -249,12 +223,14 @@ h5 {
   height: 100%;
   object-fit: fill;
 }
+
 .testimonials-main {
   width: 80%;
   margin-top: 144px;
   color: white;
   z-index: 1;
 }
+
 .testimonials-sub {
   display: flex;
   flex-wrap: wrap;
@@ -277,22 +253,27 @@ h5 {
 .testimonials-card h2 {
   color: white;
 }
+
 .testimonials-intro {
   color: white;
   font-size: 30px;
   font-weight: 300;
   line-height: 40.93px;
 }
+
 .testimonials p {
   color: white;
 }
+
 .book-consultation {
   width: 33%;
   margin: 30px auto;
 }
+
 .booking-heading {
   color: white;
 }
+
 .booking-btn {
   background: #ffffff;
   padding: 10px;
@@ -306,15 +287,18 @@ h5 {
   margin-top: 10px;
   cursor: pointer;
 }
+
 .why-humucare {
   display: flex;
   justify-content: center;
   background: #bbcbd9;
 }
+
 .why-humucare-main {
   width: 80%;
   margin-top: 144px;
 }
+
 .service-details {
   display: flex;
   flex-direction: column;
@@ -334,6 +318,7 @@ h5 {
   gap: 10px;
   justify-content: end;
 }
+
 .service-articles-wrapper {
   display: flex;
   flex-direction: column;
@@ -341,10 +326,12 @@ h5 {
   max-height: 400px;
   transition: transform 0.5s ease-in-out;
 }
+
 .mobile-service-articles-wrapper {
   display: none;
   pointer-events: none;
 }
+
 .service-slider-img {
   border-radius: 18px;
   width: 57%;
@@ -352,14 +339,17 @@ h5 {
   overflow: hidden;
   position: relative;
 }
+
 .images {
   display: none;
 }
+
 .main {
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .articles {
   display: flex;
   flex-direction: column;
@@ -368,6 +358,7 @@ h5 {
   width: 100%;
   min-height: 100%;
 }
+
 .navigation-btns-wrapper {
   position: absolute;
   bottom: 2rem;
@@ -378,9 +369,11 @@ h5 {
   left: 0;
   z-index: 10px;
 }
+
 .previous {
   rotate: 180deg;
 }
+
 .navigate-btn {
   width: 65px;
   height: 65px;
@@ -393,6 +386,7 @@ h5 {
   cursor: pointer;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
+
 .navigate-btn:hover {
   background: white;
   color: #000000;
@@ -400,6 +394,7 @@ h5 {
   transition: 0.5s all;
   transform: translateY(-10px);
 }
+
 .service-slider-img img {
   width: 100%;
   height: 100%;
@@ -409,6 +404,7 @@ h5 {
   border-radius: 18px;
   transition: all 0.3s ease;
 }
+
 .service-slider-dots {
   width: 100%;
   display: flex;
@@ -416,6 +412,7 @@ h5 {
   margin-top: 1rem;
   justify-content: center;
 }
+
 .service-dots {
   width: 17px;
   height: 17px;
@@ -424,9 +421,11 @@ h5 {
   cursor: pointer;
   margin-top: 10px;
 }
+
 .service-dots.active {
   background: white;
 }
+
 .dot-container,
 .service-dot-container {
   display: flex;
@@ -434,6 +433,7 @@ h5 {
   margin-left: 20px;
   width: 60%;
 }
+
 .dot {
   width: 17px;
   height: 17px;
@@ -448,6 +448,7 @@ h5 {
   justify-content: center;
   background: #ffffff;
 }
+
 .training-course-main,
 .contact-main,
 .footer-main {
@@ -455,35 +456,37 @@ h5 {
   margin-top: 133px;
   overflow: hidden;
 }
+
 .training-course-wrapper {
   margin: 80px auto 20px auto;
   margin-bottom: 20px;
   border-radius: 7.68px;
   box-shadow: 0px 0px 7.8px -1px #00000040;
   background: #ffffff;
-  /* opacity: 0.1; */
   overflow: hidden;
-  /* padding: 35px; */
   position: relative;
   height: 573px;
   width: 98%;
   max-width: 1149px;
 }
+
 .training-course-details {
   display: flex;
-  /* width: 100%; */
-  width: calc(100% * 3);
+  width: calc(100% * 5);
+  /* Width adjusted for 5 slides (3 original + 2 clones) */
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
-  transition: 1s;
+  left: -100%;
+  /* Start from the first original slide */
+  transition: left 1s;
   overflow: hidden;
 }
 
 .autoSlider-container {
   display: flex;
-  width: 100%;
+  width: 20%;
+  /* Each slide is now 20% of the container width (5 slides) */
   height: 100%;
   padding: 35px;
 }
@@ -496,6 +499,7 @@ h5 {
   height: 100%;
   margin-top: 4rem;
 }
+
 .btn-dot-wrapper {
   display: flex;
   align-items: center;
@@ -503,16 +507,28 @@ h5 {
   margin-top: 1rem;
   position: absolute;
   bottom: 24px;
-  left: 0px;
+  left: 0;
   width: 100%;
   padding: 10px 35px;
-  /* border: 1px solid red; */
 }
-.btn-cont {
-  display: none;
-  pointer-events: none;
-  width: 25%;
+
+.dots-container {
+  display: flex;
+  gap: 10px;
 }
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
 
 .training-btn {
   width: 20%;
@@ -545,6 +561,7 @@ h5 {
   width: 60%;
   /* height: 100%; */
 }
+
 .training-slider-img {
   border-radius: 18px;
   width: 100%;
@@ -554,37 +571,54 @@ h5 {
   left: 0px;
   /* object-fit: cover; */
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .contact {
   display: flex;
   justify-content: center;
   margin-top: -5rem;
   background: linear-gradient(357.18deg, #ffffff 44.92%, #7ebfe3 171.47%);
 }
+
 .contact-main {
   margin-bottom: 4.75rem;
 }
+
 .address {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 4.75rem 0rem;
 }
+
 .contact-icons {
   width: 19.96px;
   height: 24px;
 }
+
 .address-heading {
   display: flex;
   align-items: center;
   gap: 4px;
 }
-.map > img {
+
+.map>img {
   width: 100%;
   height: 100%;
   object-fit: fill;
   border-radius: 20px;
   max-height: 509px;
 }
+
 .footer {
   background: #0e0b34;
   display: flex;
@@ -592,6 +626,7 @@ h5 {
   align-items: center;
   justify-content: center;
 }
+
 .footer-details {
   /* width: 80%;
   margin: 0px auto; */
@@ -599,6 +634,7 @@ h5 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .footer-nav {
   width: 40%;
   display: flex;
@@ -606,6 +642,7 @@ h5 {
   gap: 2rem;
   color: white;
 }
+
 .footer-links {
   width: fit-content;
   display: flex;
@@ -613,15 +650,18 @@ h5 {
   cursor: pointer;
   flex-direction: column;
 }
+
 .footer-links button {
   border: none;
 }
+
 .footer-logo {
   background: #ffffff;
   border-radius: 4px;
   padding: 5px;
   width: fit-content;
 }
+
 .copyright-container {
   width: 60%;
   margin: 2rem auto;
@@ -630,31 +670,31 @@ h5 {
   font-size: 14px;
   line-height: 19.1px;
 }
+
 .policy-container {
   display: flex;
   width: 100%;
   justify-content: center;
   gap: 20px;
 }
+
 .copyright {
   margin-top: 23px;
 }
+
 @media screen and (max-width: 1280px) {
-  .navbar {
-    width: 90%;
-  }
-  .nav-items {
-    width: 100%;
-  }
   .hero-sub {
     width: 90%;
   }
-  .about > div {
+
+  .about>div {
     width: 90%;
   }
+
   .nurse-container {
     width: 550px;
   }
+
   .training-slider-container {
     width: 50%;
   }
@@ -664,119 +704,92 @@ h5 {
     margin-top: 0rem;
   }
 }
-@media screen and (max-width: 839px) {
-  .navbar {
-    display: flex;
-    align-items: center;
-  }
-  .nav-items button {
-    display: none;
-    pointer-events: none;
-  }
-  .nav-links {
-    position: fixed;
-    top: 6rem;
-    left: 0;
-    background: rgba(217, 235, 242, 0.5);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    transform: translateX(-100%);
-    opacity: 1;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    gap: 2rem;
-    padding: 2rem;
-    transition: 1s;
-  }
-  .nav-links a {
-    background: #120b59;
-    border-radius: 8px;
-    padding: 10px 16px;
-    color: white;
-  }
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
 
-  .navbar i {
-    display: block;
-    font-size: 32px;
-    color: #120b59;
-  }
-  #loginMobileBtn,
-  #couresMobileBtn {
-    display: block;
-  }
-}
+
+
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .testimonials-main {
     width: 90%;
   }
+
   .book-consultation {
     width: 50%;
   }
+
   .booking-btn {
     padding: 18px 4px;
   }
+
   .btn-dot-wrapper {
     bottom: 24px;
   }
 }
 
+
 @media screen and (max-width: 767px) {
-  .nav-links {
-    padding: 1rem;
-  }
   .hero {
     margin: 2rem 0rem;
     justify-content: normal;
     padding: 16px;
     opacity: 1;
   }
+
+  .contact-main h2 {
+    margin-top: 90px;
+  }
+
   .hero-sub {
     flex-direction: column;
     width: 100%;
     gap: 20px;
   }
+
   .hero-info,
   .hero-info h2 {
     width: 100%;
     max-width: fit-content;
+    text-align: center;
   }
+
   .nurse-old-woman {
     width: 100%;
     height: 405px;
   }
+
   .about {
     height: fit-content;
     opacity: 1;
   }
-  .about > div {
+
+  .about>div {
     width: 100%;
     padding: 16px;
   }
+
   .about-sub h2 {
     display: block;
   }
+
   .about-sub p {
     width: 100%;
     max-width: fit-content;
   }
+
   .about-sub {
     width: 100%;
     padding: 14px;
     margin-top: 65px;
   }
+
   .req-btn {
     width: 100%;
     padding: 16px 10px;
   }
+
   .nurse-container {
     pointer-events: none;
   }
+
   .nurse {
     border: 1px solid green;
     width: 300px;
@@ -784,66 +797,80 @@ h5 {
     display: none;
     right: 0px;
   }
-  header {
-    width: 100%;
-  }
+
+
+
   h2 {
     font-size: 41px;
     line-height: 50.56px;
   }
+
   .book-consultation,
   .footer-main {
     width: 90%;
   }
+
   .booking-btn {
     padding: 18px 4px;
     font-weight: 700;
   }
+
   .testimonials {
     margin: 0rem;
     justify-content: normal;
     padding: 16px;
     background: linear-gradient(182.04deg, #699dca -1.66%, #120b59 100.08%);
   }
-  .testimonials > img {
+
+  .testimonials>img {
     display: none;
     height: 100%;
     width: 100%;
     min-height: max-content;
     object-fit: contain;
   }
+
   .testimonials-main {
     margin-top: 70px;
   }
+
   .testimonials-sub {
     flex-direction: column;
     margin-top: 2rem;
   }
+
   .testimonials-card {
     width: 100%;
     padding-left: 16px;
   }
+
   .testimonials-main {
     width: 100%;
   }
+
   .why-humucare-main {
     width: 90%;
     margin-top: 2rem;
   }
+
   .service-slider-container {
     flex-direction: column;
   }
+
   .autoSlider-container {
     flex-direction: column-reverse;
   }
+
   .service-articles-wrapper {
     display: none;
     pointer-events: none;
   }
+
   .service-slider-dots {
     display: none;
     pointer-events: none;
   }
+
   .mobile-service-articles-wrapper {
     margin-top: 2rem;
     display: flex;
@@ -852,22 +879,27 @@ h5 {
     width: 100%;
     height: 100%;
   }
+
   .autoSlider-container {
     padding: 1rem;
   }
+
   .service-details article,
   .service-slider-container,
   .autoSlider-container article,
   .training-slider-container {
     width: 100%;
   }
+
   .autoSlider-container article {
     margin-top: 1rem;
   }
+
   .training-course-main {
     margin-top: 2rem;
     width: 90%;
   }
+
   .training-course-wrapper {
     padding: 10px;
     height: 738px;
@@ -881,6 +913,7 @@ h5 {
     height: 100%;
     max-height: 278px;
   }
+
   .dots-container {
     display: flex;
     justify-content: center;
@@ -890,45 +923,55 @@ h5 {
     background: transparent;
     border: 1px solid #120b59;
   }
+
   .dot.active {
     border: none;
     background-color: #120b59;
   }
+
   .btn-dot-wrapper {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
+
   .training-btn {
     width: 100%;
     border: none;
     margin-top: 1rem;
     padding: 1rem 0rem;
   }
+
   .form,
   .contact-main {
     padding: 1rem;
   }
+
   .form-sub,
   .contact {
     width: 100%;
     flex-direction: column;
   }
+
   .form-container form {
     padding: 1rem;
   }
+
   .contact-main {
     margin-top: 5rem;
     width: 100%;
   }
+
   .address {
     margin-top: 1rem;
     width: 100%;
   }
+
   .address {
     flex-direction: column;
     gap: 8px;
   }
+
   .footer-details {
     gap: 40px;
     justify-content: start;
@@ -944,7 +987,9 @@ h5 {
     width: 80%;
     margin: 0px auto;
   }
+
 }
+
 @media screen and (min-width: 767px) and (max-width: 970px) {
   .nurse-container {
     height: 647px;
@@ -953,6 +998,7 @@ h5 {
     top: 1%;
     right: 77px;
   }
+
   .req-btn {
     width: 45%;
     z-index: 1;
