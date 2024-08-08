@@ -63,7 +63,7 @@
                         <input type="text" id="email" name ="email" placeholder="Email">
                         <input type="text" id="phone"  name ="phone" placeholder="Phone">
                         <input type="text" id="phone" required name ="type" placeholder="Select service type (e.g folklift service, Global Talent, Visa, Accommodation, Ticket, Lawyer/Accountant Assistant, ">
-                        <button  type="submit" class="btn">
+                        <button  type="submit" class="btn btn-info">
                             Submit
                         </button>
                         {{-- <span>Already have an account? <a href="./login.html">Login</a></span> --}}
