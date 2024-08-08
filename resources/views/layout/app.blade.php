@@ -59,7 +59,7 @@
                         <a href="{{ route('about') }}">About</a>
                         <a href="{{ route('service') }}">Services</a>
                         <a href="home#contact">Contact</a>
-                        <a href="./login.html" id="loginMobileBtn">Login</a>
+                        <a href="" id="loginMobileBtn">Login</a>
                     </div>
                     <a href="https://training.humucarecleaning.co.uk/courses">
 

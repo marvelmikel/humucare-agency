@@ -6,7 +6,7 @@
     <div class="hero-sub">
         <article class="hero-info">
             <h2>Your most trusted partner in care and Hygiene</h2>
-            <a href="./about.html">
+            <a href="{{ route('about') }}">
                 <button class="hero-btn">Learn more</button>
             </a>
         </article>
@@ -28,7 +28,9 @@
                 assistance and support. With a focus on cleanliness and hygiene, we ensure that your home,
                 school,
                 office, or any other space receives the best cleaning service possible.</p>
+            <a href="{{ route('serviceRequest') }}">
             <button class="btn req-btn">Request a service</button>
+            </a>
             <div class="nurse-container">
                 <img class="nurse" src="{{ URL::asset('assets/images/nurse.png')}}" alt="Nurse" />
             </div>
@@ -70,7 +72,9 @@
         </div>
         <div class="book-consultation" id="consultations">
             <p class="booking-heading">We are committed to serving you</p>
+            <a href="{{ route('serviceRequest') }}">
             <button class="booking-btn">Book a consultation now!</button>
+            </a>
         </div>
     </div>
 </section>
@@ -226,6 +230,7 @@
                 </div>
             </div>
             <div class="btn-dot-wrapper">
+                
                 <button class="btn training-btn">Get started</button>
                 <div class="dots-container">
                     <div class="dot active"></div>

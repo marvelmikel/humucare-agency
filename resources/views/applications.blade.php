@@ -1,121 +1,120 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <meta name="description" content="Smarthr - Bootstrap Admin Template">
-    <meta name="keywords"
-        content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
-    <meta name="author" content="Dreamguys - Bootstrap Admin Template">
-    <meta name="robots" content="noindex, nofollow">
-    <title> Consultation Service Request </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Humucare</title>
+    <!-- <link rel="stylesheet" href="./styles/home.css"> -->
+    <link rel="stylesheet" href="{{ URL::asset('assets/styles/registration.css')}}">
+    <link rel="stylesheet" href="{{ URL::asset('assets/styles/navbar.css')}}">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logoIcon/favicon.png">
+    <link rel="stylesheet" href="{{ URL::asset('asset/css/bootstrap.min.css')}}">
 
-    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ URL::asset('asset/css/font-awesome.min.css')}}">
 
-    <link rel="stylesheet" href="asset/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ URL::asset('asset/css/line-awesome.min.css')}}">
 
-    <link rel="stylesheet" href="asset/css/line-awesome.min.css">
-
-    <link rel="stylesheet" href="asset/css/style.css">
-
+    <link rel="stylesheet" href="{{ URL::asset('asset/css/style.css')}}">
 </head>
 
 <body>
     @include('partials.notify')
-    <div class="card">
+    <img src="{{ URL::asset('assets/images/hero-bg-image.png')}}" alt="hero-bg" />
+    <main>
 
-        <div class="card-body">
-            <h1> Humucare Service Quote Form </h1>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 class="card-title mb-0"> Application Assitance Form </h4>
-                        </div>
-                        <div class="card-body">
-                            <form action="{{ route('serviceRequest') }}" method="post">
-                                @csrf
-                                <div class="form-group row">
-                                    <label class="col-form-label col-lg-2">First Name</label>
-                                    <div class="col-lg-10">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                            </div>
-                                            <input type="text" class="form-control" placeholder="First Name"
-                                                aria-label="Full Name" aria-describedby="basic-addon1" name ="firstname"
-                                                required>
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <br>
-                                    <br>
-
-                                    <label class="col-form-label col-lg-2">Last Name</label>
-                                    <div class="col-lg-10">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                            </div>
-                                            <input type="text" class="form-control" placeholder="Last Name"
-                                                aria-label="Last Name" aria-describedby="basic-addon1" name ="lastname" required>
-                                        </div>
-                                    </div>
-
-
-                                    <label class="col-form-label col-lg-2">Email</label>
-                                    <div class="col-lg-10">
-                                        <div class="input-group" style ="padding-top:10px;">
-                                            <div class="input-group-prepend">
-                                            </div>
-                                            <input type="email" class="form-control" placeholder="example@mail.com"
-                                                aria-label="Email" aria-describedby="basic-addon1" name ="email"
-                                                required>
-                                        </div>
-                                    </div>
-                                    <label class="col-form-label col-lg-2">Phone Number </label>
-                                    <div class="col-lg-10">
-                                        <div class="input-group" style ="padding-top:10px;">
-                                            <div class="input-group-prepend">
-                                            </div>
-                                            <input type="text" class="form-control" placeholder="+44 90192930"
-                                                aria-label="Phone" aria-describedby="basic-addon1" name ="phone"
-                                                required>
-                                        </div>
-                                    </div>
-
-                                    <label class="col-form-label col-lg-2">Service Type </label>
-                                    <div class="col-lg-10">
-                                        <div class="input-group" style ="padding-top:10px;">
-                                            <div class="input-group-prepend">
-                                            </div>
-
-                                            <select class="form-control" required name ="type">
-                                                <option value ="type"> Select </option>
-                                                <option value="Accommodation Assistance"> Accommodation Assistance
-                                                </option>
-                                                <option value ="VISA Assistance "> VISA Assistance </option>
-                                                <option value ="Forklift Service">Forklift Service</option>
-                                                <option value ="Ticket Assistance"> Ticket Assistance </option>
-                                                <option value ="Global Talent VISA"> Global Talent VISA </option>
-                                                <option value ="Lawyer or Accountant Assistance"> Lawyer or Accountant
-                                                    Assistance </option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="input-group" style ="padding-top:10px;">
-                                        <div class="col-lg-10 text-center">
-
-                                            <button type="submit" class="btn btn-primary btn-lg"> Submit </button>
-                            </form>
-                        </div>
+        <header>
+            <nav class="navbar" id="myNavbar">
+                <div class="nav-items">
+                    <div>
+                        <a href="{{ route('home') }}">
+                            <img src="{{ URL::asset('assets/images/logo.png')}}" alt="logo" class="logo" />
+                            </a>
                     </div>
+                   
+                   
+                </div>
+                <div class="icon" id="mobileNav">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
 
+        <section class="form" id="home">
+            <div class="form-sub">
+                <h2>Humucare Service Quote Form</h2>
+                <div class="form-container">
+                   
+                    <p>Request for any of our service</p>
+
+                    <form id="myForm" action="{{route('serviceRequest')}}" method="post">
+                        @csrf
+                        <input type="text" id="first_name" name ="firstname"  required placeholder="First Name">
+                        <input type="text" id="last_name"  name ="lastname" placeholder="Last Name">
+                        <input type="text" id="email" name ="email" placeholder="Email">
+                        <input type="text" id="phone"  name ="phone" placeholder="Phone">
+                        <input type="text" id="phone" required name ="type" placeholder="Select service type (e.g folklift service, Global Talent, Visa, Accommodation, Ticket, Lawyer/Accountant Assistant, ">
+                        <button  type="submit" class="btn">
+                            Submit
+                        </button>
+                        {{-- <span>Already have an account? <a href="./login.html">Login</a></span> --}}
+                    </form>
                 </div>
             </div>
-        </div>
-    </div>
-    </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <div class="contact-main">
+                <h2>Contact Us</h2>
+                <div class="address">
+                    <div>
+                        <div class="address-heading">
+                            <img class="contact-icons" src="./images/location.png" alt="location" />
+                            <h3>Office Address</h3>
+                        </div>
+                        <p class="address-paragraph">19 Grove Ln, Handsworth, Birmingham B21 9ES</p>
+
+                    </div>
+                    <div>
+                        <div class="address-heading"><img class="contact-icons" src="./images/phone.png" alt="phone" />
+                            <h3>Phone</h3>
+                        </div>
+                        <p class="address-paragraph">+44 01214484501</p>
+                        <p class="address-paragraph">+44 7485705519</p>
+                        <p class="address-paragraph">+44 7449688883</p>
+
+                    </div>
+                    <div>
+                        <div class="address-heading"><img class="contact-icons" src="./images/mail.png" alt="mail" />
+                            <h3>Email</h3>
+                        </div>
+                        <p class="address-paragraph">agency@humucarecleaning.co.uk</p>
+
+                    </div>
+                </div>
+                <div class="map">
+                    <div style="width: 100%">
+                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Birmingham+(humucare)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.gps.ie/">gps systems</a>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+    </main>
 
     <script src="asset/js/jquery-3.5.1.min.js"></script>
 
@@ -131,16 +130,8 @@
             window.location.href = "/";
         </script>
     @endif
-
 </body>
 
-
-
-
-<footer>
-
-</footer>
-
-
-
+{{-- <script type="text/javascript" src="{{ URL::asset('assets/js/registration.js')}}"></script> --}}
+<script type="text/javascript" src="{{ URL::asset('assets/js/navbar.js')}}"></script>
 </html>

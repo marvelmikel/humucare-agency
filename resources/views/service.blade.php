@@ -133,31 +133,43 @@
             <div class="other-service-card-container">
                 <div class="other-service-card">
                     <p>Accommodation (Air bnb)</p>
+                    <a href="{{ route('serviceRequest') }}">
                     <button class="btn request_btn">Request Quote</button>
+                    </a>
                 </div>
                 <div class="other-service-card">
                     <p>Visa
                         Application</p>
+                        <a href="{{ route('serviceRequest') }}">
                     <button class="btn request_btn">Request Quote</button>
+                    </a>
                 </div>
                 <div class="other-service-card">
                     <p>Forklift
                         Training/Service</p>
+                        <a href="{{ route('serviceRequest') }}">
                     <button class="btn request_btn">Request Quote</button>
+                    </a>
                 </div>
                 <div class="other-service-card">
                     <p>Legal Services</p>
+                    <a href="{{ route('serviceRequest') }}">
                     <button class="btn request_btn">Request Quote</button>
+                    </a>
                 </div>
                 <div class="other-service-card">
                     <p>Accountant
                         Services</p>
+                        <a href="{{ route('serviceRequest') }}">
                     <button class="btn request_btn">Request Quote</button>
+                    </a>
                 </div>
                 <div class="other-service-card">
                     <p>Flight
                         Booking</p>
+                        <a href="{{ route('serviceRequest') }}">
                     <button class="btn request_btn">Request Quote</button>
+                    </a>
                 </div>
             </div>
         </section>

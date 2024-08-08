@@ -12,7 +12,9 @@
                 assistance and support. With a focus on cleanliness and hygiene, we ensure that your home,
                 school,
                 office, or any other space receives the best cleaning service possible.</p>
+                <a href="{{ route('serviceRequest') }}">
             <button class="btn req-btn">Request a service</button>
+            </a>
             <div class="nurse-container">
                 <img class="nurse" src="{{ URL::asset('assets/images/nurse.png')}}" alt="Nurse" />
             </div>
