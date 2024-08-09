@@ -60,8 +60,7 @@
                         <a href="{{ route('service') }}">Services</a>
                         <a href="home#contact">Contact</a>
                         <a href="https://www.humucareshop.co.uk/">Fashion Shop</a>
-                        <a href="https://training.humucarecleaning.co.uk/courses">Food Shop</a>
-                        <a href="https://humucarepay.payceler.net">Send Money</a>
+                        <a href="https://mannie.ac/">
                         <a href="" id="loginMobileBtn">Login</a>
                     </div>
                     <a href="https://training.humucarecleaning.co.uk/courses">
