@@ -213,7 +213,7 @@
                                             "description": "DBS check fee\n£ 65",
                                             "amount": {
                                                 "currency_code": "GBP",
-                                                "value": 1
+                                                "value": 65
                                             }
                                         }]
                                     });
