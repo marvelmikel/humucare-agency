@@ -24,20 +24,34 @@
                 <div class="nav-items">
                     <div>
                         <a href="{{ route('home') }}">
-                            <img src="{{ URL::asset('assets/images/logo.png')}}" alt="logo" class="logo" />
-                            </a>
+                        <img src="{{ URL::asset('assets/images/logo.png')}}" alt="logo" class="logo" />
+                        </a>
                     </div>
                     <div class="nav-links">
                         <a href="{{ route('home') }}">Home</a>
+
                         <a href="{{ route('about') }}">About</a>
+
                         <a href="{{ route('service') }}">Services</a>
-                        <a href="service#contact">Contact</a>
-                        <a href="./login.html" id="loginMobileBtn">Login</a>
+
+                        <a href="home#contact">Contact</a>
+
+                        <a href="https://www.humucareshop.co.uk/">Fashion Shop</a>
+
+                        <a href="https://mannie.ac/"> Food Shop</a>
+
+                        <a href="https://humucarepay.payceler.net/">Send Money</a>
+
+                        <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
+
+                      
                     </div>
+                    <a href="https://training.humucarecleaning.co.uk/courses">
 
                     <button class="btn">Humu Courses</button>
-                    <a href="">
-                        <button class="btn" id="registerBtn">Register</button>
+                    </a>
+                    <a href="https://humucareemployeemanagement.humucarecleaning.co.uk">
+                        <button class="btn" id="">Login</button>
                     </a>
                 </div>
                 <a href="javascript:void(0);" class="icon" id="mobileNav">

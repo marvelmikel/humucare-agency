@@ -66,10 +66,11 @@
                         <a href="https://www.humucareshop.co.uk/">Fashion Shop</a>
 
                         <a href="https://mannie.ac/"> Food Shop</a>
+                        <a href="https://humucarepay.payceler.net/">Send Money</a>
 
                         <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
 
-                        <a href="https://humucarepay.payceler.net/">Send Money</a>
+                      
                     </div>
                     <a href="https://training.humucarecleaning.co.uk/courses">
 
