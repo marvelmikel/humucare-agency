@@ -56,17 +56,25 @@
                     </div>
                     <div class="nav-links">
                         <a href="{{ route('home') }}">Home</a>
+
                         <a href="{{ route('about') }}">About</a>
+
                         <a href="{{ route('service') }}">Services</a>
+
                         <a href="home#contact">Contact</a>
+
                         <a href="https://www.humucareshop.co.uk/">Fashion Shop</a>
-                        <a href="https://mannie.ac/">
-                        <a href="" id="loginMobileBtn">Login</a>
+
+                        <a href="https://mannie.ac/"> Food Shop</a>
+
+                        <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
+
+                        <a href="https://humucarepay.payceler.net/">Send Money</a>
                     </div>
                     <a href="https://training.humucarecleaning.co.uk/courses">
 
                     <button class="btn">Humu Courses</button>
-                    ,</a>
+                    </a>
                     <a href="https://humucareemployeemanagement.humucarecleaning.co.uk">
                         <button class="btn" id="">Login</button>
                     </a>
