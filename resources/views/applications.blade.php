@@ -62,7 +62,7 @@
                         <input type="text" id="last_name"  name ="lastname" placeholder="Last Name">
                         <input type="text" id="email" name ="email" placeholder="Email">
                         <input type="text" id="phone"  name ="phone" placeholder="Phone">
-                        <input type="text" id="phone" required name ="type" placeholder="Select service type (e.g folklift service, Global Talent, Visa, Accommodation, Ticket, Lawyer/Accountant Assistant, ">
+                        <input type="text" id="phone" required name ="type" placeholder="Service type (e.g folklift service, Global Talent, Visa, Accommodation, Ticket, Lawyer/Accountant Assistant, ">
                         <button  type="submit" class="btn btn-info">
                             Submit
                         </button>
