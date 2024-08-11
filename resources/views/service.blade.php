@@ -196,7 +196,7 @@
                                 createOrder: function(data, actions) {
                                     return actions.order.create({
                                         purchase_units: [{
-                                            "description": "Consultation fee\n£ 100",
+                                            "description": "DBS check fee\n£ 65",
                                             "amount": {
                                                 "currency_code": "GBP",
                                                 "value": 1
