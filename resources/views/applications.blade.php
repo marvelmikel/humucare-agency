@@ -29,6 +29,7 @@
 
 <body>
     @include('partials.notify')
+
     <img src="{{ URL::asset('assets/images/hero-bg-image.png')}}" alt="hero-bg" />
     <main>
 
@@ -37,18 +38,40 @@
                 <div class="nav-items">
                     <div>
                         <a href="{{ route('home') }}">
-                            <img src="{{ URL::asset('assets/images/logo.png')}}" alt="logo" class="logo" />
-                            </a>
+                        <img src="{{ URL::asset('assets/images/logo.png')}}" alt="logo" class="logo" />
+                        </a>
                     </div>
-                   
-                   
+                    <div class="nav-links">
+                        <a href="{{ route('home') }}">Home</a>
+
+                        <a href="{{ route('about') }}">About</a>
+
+                        <a href="{{ route('service') }}">Services</a>
+
+                        <a href="home#contact">Contact</a>
+
+                        <a href="https://www.humucareshop.co.uk/">Fashion Shop</a>
+
+                        <a href="https://mannie.ac/"> Food Shop</a>
+                        <a href="https://humucarepay.payceler.net/">Send Money</a>
+
+                        <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
+
+                      
+                    </div>
+                    <a href="https://training.humucarecleaning.co.uk/courses">
+
+                    <button class="btn">Humu Courses</button>
+                    </a>
+                    <a href="https://humucareemployeemanagement.humucarecleaning.co.uk">
+                        <button class="btn" id="">Login</button>
+                    </a>
                 </div>
-                <div class="icon" id="mobileNav">
+                <a href="javascript:void(0);" class="icon" id="mobileNav">
                     <i class="fa-solid fa-bars"></i>
-                </div>
+                </a>
             </nav>
         </header>
-
         <section class="form" id="home">
             <div class="form-sub">
                 <h2>Humucare Service Quote Form</h2>
@@ -79,14 +102,14 @@
                 <div class="address">
                     <div>
                         <div class="address-heading">
-                            <img class="contact-icons" src="./images/location.png" alt="location" />
+                            <img class="contact-icons" src="{{ URL::asset('assets/images/location.png')}}" alt="location" />
                             <h3>Office Address</h3>
                         </div>
                         <p class="address-paragraph">19 Grove Ln, Handsworth, Birmingham B21 9ES</p>
 
                     </div>
                     <div>
-                        <div class="address-heading"><img class="contact-icons" src="./images/phone.png" alt="phone" />
+                        <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/phone.png')}}" alt="phone" />
                             <h3>Phone</h3>
                         </div>
                         <p class="address-paragraph">+44 01214484501</p>
@@ -95,7 +118,7 @@
 
                     </div>
                     <div>
-                        <div class="address-heading"><img class="contact-icons" src="./images/mail.png" alt="mail" />
+                        <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/mail.png')}}" alt="mail" />
                             <h3>Email</h3>
                         </div>
                         <p class="address-paragraph">agency@humucarecleaning.co.uk</p>
