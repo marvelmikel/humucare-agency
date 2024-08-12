@@ -175,6 +175,133 @@
     </div>
 </section>
 
+
+<section class="testimonials" id="testimonials">
+    <div class="testimonials-main">
+        <h2 class="testimonials-heading">Application Forms</h2>
+        <p class="testimonials-intro">Please kindly download the two form & fill it with a
+            valid information and submit to the email below; agency@humucarecleaning.co.uk.</p>
+        <div class="testimonials-sub">
+            <article class="testimonials-card">
+                <h4>Humucare Job Application Form</h4>
+                <div style="text-align: center;">
+                    <a href="/download2" download>
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+                </div>
+            </article>
+            
+            
+            <article class="testimonials-card">
+                <h4>Humucare Cleaner Application Form</h4>
+                <div style="text-align: center;">
+                    <a href="/download" download>
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+                </div>
+            </article>
+
+
+            <article class="testimonials-card">
+                <h4>Humucare Time Sheet Form.<br>Please note do not
+                    download, on till the job offer is been granted.</h4>
+                <div style="text-align: center;">
+                    <a href="/download3" download>
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+                </div>
+            </article>
+
+
+        </div>
+        
+    </div>
+</section>
+<br><br>
+<section class="why-humucare" id="services">
+    <div class="why-humucare-main">
+        <h2>Why Choose Humu Short Stay</h2>
+        <div class="service-details">
+            <div class="service-slider-container">
+                <div class="service-articles-wrapper">
+                    <article class="articles">
+                        <h5>Experience Humu Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or brief business trips</h5>
+                        <p>
+                        Humu Short Stay offers cozy and convenient stays tailored for quick 
+                        getaways or brief business trips. Enjoy comfortable accommodations with personalized 
+                        touches and easy access to local attractions, ensuring a hassle-free and memorable experience.
+                         Perfect for travelers seeking a homey atmosphere in a prime location.
+                        </p>
+                        <a href="https://www.booking.com/hotel/gb/humucare-place.tr.html">
+                        <button class="btn training-btn">Visit our Short stay </button>
+                        </a>
+                    </article>
+                    
+                </div>
+
+                <div class="service-slider-img">
+                    <img class="images main" src="{{ URL::asset('assets/images/1.jpeg')}}" />
+                    <img class="images" src="{{ URL::asset('assets/images/1.jpeg')}}" />
+                    <img class="images" src="{{ URL::asset('assets/images/2.jpg')}}"  />
+
+                    <div class="navigation-btns-wrapper">
+                        <div class="previous navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" alt="arrow" />
+                        </div>
+                        <div class="next navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" /></div>
+                    </div>
+                </div>
+                <div class="mobile-service-articles-wrapper">
+                    <article class="articles">
+                        <h5>Experienced and Supportive Assistance:</h5>
+                        <p>Beyond just cleaning, our team provides companionship and one-on-one attention to
+                            foster
+                            a
+                            caring
+                            and trustworthy relationship with our clients. We understand that each
+                            individual
+                            has
+                            unique
+                            needs, and we strive to develop meaningful connections based on trust and
+                            compassion.
+                        </p>
+                    </article>
+                    <article class="articles">
+                        <h5>cleaning Excellence:</h5>
+                        <p>Say goodbye to dirt and grimme with our team of dedicated cleaning
+                            specialisties!.
+                            From home to office and everything in between, we're here to ensure your space
+                            shines brighter than ever before.
+                        </p>
+                    </article>
+                    <article class="articles">
+                        <h5>Personalized Care Plans:</h5>
+                        <p>we believe that no two individual are alike,which is why we offer personalized
+                            care plans tailored to your specific needs.Our goal is to ensure that you feel
+                            comfortable and supported in your own space, whether you need assistance with
+                            daily tasks or ongoing care.
+                        </p>
+                    </article>
+
+                </div>
+
+
+            </div>
+            <div class="service-slider-dots">
+                <span class="service-dots active"></span>
+                <span class="service-dots"></span>
+                <span class="service-dots"></span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <section class="training-course">
     <div class="training-course-main">
         <h2>Consultation</h2>
