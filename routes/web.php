@@ -92,6 +92,27 @@ Route::get('/download4', function(){
 });
 
 
+// clinton
+Route::get('/download5', function(){
+    $file = public_path()."/files/NANNY APPLICATION FORM UK.pdf";
+
+    $headers = array(
+        'Content-type: application/pdf',
+    );
+
+    return Response::download($file, "Humucare Nanny application form.pdf", $headers);
+});
+Route::get('/download6', function(){
+    $file = public_path()."/files/PARENT APPLICATION FORM UK.pdf";
+
+    $headers = array(
+        'Content-type: application/pdf',
+    );
+
+    return Response::download($file, "Humucare Parent application form.pdf", $headers);
+});
+
+
 
 
 

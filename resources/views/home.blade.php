@@ -186,19 +186,43 @@
                 <h4>Humucare Job Application Form</h4>
                 <div style="text-align: center;">
                     <a href="/download2" download>
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download2" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
                 </div>
             </article>
-            
-            
+
+
             <article class="testimonials-card">
                 <h4>Humucare Cleaner Application Form</h4>
                 <div style="text-align: center;">
                     <a href="/download" download>
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+                </div>
+            </article>
+
+            <article class="testimonials-card">
+                <h4>Humucare Parent application form</h4>
+                <span>To book a Nanny as a parent download.</span>
+                <div style="text-align: center;">
+                    <a href="/download6" download>
+                        <button type="button" onclick="confirmation(event)" data-content="/download6" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+                </div>
+            </article>
+
+            <article class="testimonials-card">
+                <h4>Humucare Nanny application form</h4>
+                <span>To register as a Nanny download.</span>
+                <div style="text-align: center;">
+                    <a href="/download5" download>
+                        <button type="button" onclick="confirmation(event)" data-content="/download5" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
@@ -207,11 +231,11 @@
 
 
             <article class="testimonials-card">
-                <h4>Humucare Time Sheet Form.<br>Please note do not
-                    download, on till the job offer is been granted.</h4>
+                <h4>Humucare Time Sheet Form.</h4>
+                <span>Download only after job offer is granted.</span>
                 <div style="text-align: center;">
                     <a href="/download3" download>
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download3" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
@@ -220,29 +244,33 @@
 
 
         </div>
-        
+
     </div>
 </section>
 <br><br>
 <section class="why-humucare" id="services">
     <div class="why-humucare-main">
         <h2>Why Choose Humu Short Stay</h2>
+
         <div class="service-details">
             <div class="service-slider-container">
                 <div class="service-articles-wrapper">
                     <article class="articles">
                         <h5>Experience Humu Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or brief business trips</h5>
                         <p>
-                        Humu Short Stay offers cozy and convenient stays tailored for quick 
-                        getaways or brief business trips. Enjoy comfortable accommodations with personalized 
+                        Humu Short Stay offers cozy and convenient stays tailored for quick
+                        getaways or brief business trips. Enjoy comfortable accommodations with personalized
                         touches and easy access to local attractions, ensuring a hassle-free and memorable experience.
                          Perfect for travelers seeking a homey atmosphere in a prime location.
                         </p>
-                        <a href="https://www.booking.com/hotel/gb/humucare-place.tr.html">
-                        <button class="btn training-btn">Visit our Short stay </button>
-                        </a>
+
+
+                        <a href="https://direct.travelnest.com/properties/7989306">
+                            <button class="btn training-btn">Visit our Short stay </button>
+                            </a>
+
                     </article>
-                    
+
                 </div>
 
                 <div class="service-slider-img">
@@ -286,6 +314,15 @@
                             comfortable and supported in your own space, whether you need assistance with
                             daily tasks or ongoing care.
                         </p>
+
+                        <div class="d-flex">
+                            <a href="https://direct.travelnest.com/properties/7989306">
+                                <button class="btn training-btn">Visit our Travelnest rooms </button>
+                                </a>
+                            <a href="https://www.airbnb.co.uk/rooms/1197302073479837504">
+                                <button class="btn training-btn">Visit our Airbnb rooms </button>
+                                </a>
+                        </div>
                     </article>
 
                 </div>
@@ -357,7 +394,7 @@
                 </div>
             </div>
             <div class="btn-dot-wrapper">
-                
+
                 <button class="btn training-btn">Get started</button>
                 <div class="dots-container">
                     <div class="dot active"></div>
@@ -365,10 +402,10 @@
                     <div class="dot"></div>
                 </div>
             </div>
-            
+
         </div>
 
-        
+
 
 
 

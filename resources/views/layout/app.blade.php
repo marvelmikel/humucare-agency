@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,10 +36,10 @@
     </script>
     <!--End of Tawk.to Script-->
 
-    
+
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
- 
+
 
 </head>
 
@@ -70,7 +70,7 @@
 
                         <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
 
-                      
+
                     </div>
                     <a href="https://training.humucarecleaning.co.uk/courses">
 
@@ -132,6 +132,115 @@
     </footer>
 </main>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+     <script>
+        function confirmation(ev) {
+          ev.preventDefault();
+          var downloadContent = ev.currentTarget.getAttribute('data-content');
+          if (downloadContent == '/download5') {
+
+              swal({
+
+              title: "Download Humucare Nanny application form?",
+              text: "This action cannot be reverted easily",
+              icon: "info",
+              buttons: true,
+              dangerMode: false,
+              })
+              .then((willCancel) => {
+              if (willCancel) {
+
+                  window.location.href = downloadContent;
+
+              }
+              });
+          }
+
+          if (downloadContent == '/download3') {
+
+              swal({
+
+              title: "Download Humucare Time Sheet Form?",
+              text: "Download only after job offer is granted",
+              icon: "info",
+              buttons: true,
+              dangerMode: false,
+              })
+              .then((willCancel) => {
+              if (willCancel) {
+
+                  window.location.href = downloadContent;
+
+              }
+              });
+          }
+
+          if (downloadContent == '/download6') {
+
+              swal({
+
+              title: "Download Humucare Parent application form?",
+              text: "This action cannot be reverted easily.",
+              icon: "info",
+              buttons: true,
+              dangerMode: false,
+              })
+              .then((willCancel) => {
+              if (willCancel) {
+
+                  window.location.href = downloadContent;
+
+              }
+              });
+          }
+
+          if (downloadContent == '/download') {
+
+              swal({
+
+              title: "Download Humucare Cleaner Application Form?",
+              text: "This action cannot be reverted easily.",
+              icon: "info",
+              buttons: true,
+              dangerMode: false,
+              })
+              .then((willCancel) => {
+              if (willCancel) {
+
+                  window.location.href = downloadContent;
+
+              }
+              });
+          }
+
+          if (downloadContent == '/download2') {
+
+              swal({
+
+              title: "Download Humucare Job Application Form?",
+              text: "This action cannot be reverted easily.",
+              icon: "info",
+              buttons: true,
+              dangerMode: false,
+              })
+              .then((willCancel) => {
+              if (willCancel) {
+
+                  window.location.href = downloadContent;
+
+              }
+              });
+          }
+
+      }
+    </script>
+
 <script type="module" src="{{ URL::asset('assets/js/app.js')}}"></script>
 <script type="module" src="{{ URL::asset('assets/js/navbar.js')}}"></script>
 </html>
+
