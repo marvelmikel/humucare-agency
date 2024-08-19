@@ -44,6 +44,9 @@
 </head>
 
 <body>
+
+
+
     <img src="{{ URL::asset('assets/images/hero-bg-image.png')}}" alt="hero-bg" />
     <main>
         <header>
@@ -218,6 +221,24 @@
               });
           }
 
+          if (downloadContent == '/download2') {
+
+              swal({
+
+              title: "Download Humucare Job Application Form?",
+              text: "This action cannot be reverted easily.",
+              icon: "info",
+              buttons: true,
+              dangerMode: false,
+              })
+              .then((willCancel) => {
+              if (willCancel) {
+
+                  window.location.href = downloadContent;
+
+              }
+              });
+          }
           if (downloadContent == '/download2') {
 
               swal({

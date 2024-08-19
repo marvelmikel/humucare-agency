@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ApplicationController;
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -111,6 +112,8 @@ Route::get('/download6', function(){
 
     return Response::download($file, "Humucare Parent application form.pdf", $headers);
 });
+
+Route::post('/serviceQoute',[MailController::class, 'serviceQuote'])->name('serviceQoute');
 
 
 

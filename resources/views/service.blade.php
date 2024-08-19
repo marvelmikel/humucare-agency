@@ -17,6 +17,8 @@
 
 <body>
     <!-- <img src="./images/hero-bg-image.png" alt="hero-bg" /> -->
+
+    @include('sweetalert::alert')
     <main>
 
         <header>
@@ -44,7 +46,7 @@
 
                         <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
 
-                      
+
                     </div>
                     <a href="https://training.humucarecleaning.co.uk/courses">
 
@@ -63,85 +65,87 @@
         <section class="service-quote">
             <div class="service-quote-sub">
                 <h2>Service Quote Form</h2>
-                <form>
+                <form action="{{route('serviceQoute')}}" method="POST">
+                    @csrf
                     <input type="text" id="first_name" name="fname" placeholder="First Name">
-                    <input type="text" id="last_name" name="fname" placeholder="Last Name">
+                    <input type="text" id="last_name" name="lname" placeholder="Last Name">
                     <input type="text" id="email" name="email" placeholder="Email">
-                    <input type="text" id="password" name="password" placeholder="Password">
-                </form>
+                    {{-- <input type="text" id="password" name="password" placeholder="Password"> --}}
+
                 <div class="cleaning-service">
                     <h2>Cleaning Services</h2>
                     <p>Select those that apply</p>
                     <div class="cleaning-service-sub">
                         <div class="cleaning-service-left">
                             <div class="cleaning-service-left-inner">
-                                <input type="checkbox" />
+                                <input name="vacuum_and_mop_floors" type="checkbox" />
                                 <h4>Vacuum and mop floors</h4>
                             </div>
                             <div class="cleaning-service-left-inner">
-                                <input type="checkbox" />
+                                <input name="dust_and_wipe_surfaces" type="checkbox" />
                                 <h4>Dust and wipe surfaces</h4>
                             </div>
                             <div class="cleaning-service-left-inner">
-                                <input type="checkbox" />
+                                <input name="cleaning_and_sanitize_bathrooms" type="checkbox" />
                                 <h4>Cleaning and sanitize bathrooms</h4>
                             </div>
                             <div class="cleaning-service-left-inner">
-                                <input type="checkbox" />
+                                <input name="cleaning_and_sanitize_kitchen" type="checkbox" />
                                 <h4>Cleaning and sanitize kitchen</h4>
                             </div>
                             <div class="cleaning-service-left-inner">
-                                <input type="checkbox" />
+                                <input name="empty_trash_cans_and_replace_liners" type="checkbox" />
                                 <h4>Empty trash cans and replace liners</h4>
                             </div>
                             <div class="cleaning-service-left-inner">
-                                <input type="checkbox" />
+                                <input name="cleaning_and_sanitize_bedrooms" type="checkbox" />
                                 <h4>Cleaning and sanitize bedrooms</h4>
                             </div>
                             <div class="cleaning-service-left-inner">
-                                <input type="checkbox" />
+                                <input name="cleaning_and_sanitize_living_room" type="checkbox" />
                                 <h4>Cleaning and sanitize living room</h4>
                             </div>
                         </div>
                         <div class="cleaning-service-right">
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="fridge_cleaning" type="checkbox" />
                                 <h4>Fridge cleaning</h4>
                             </div>
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="empty_trash_cans_and_replace_liners" type="checkbox" />
                                 <h4>Empty trash cans and replace liners</h4>
                             </div>
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="flower_cleaning" type="checkbox" />
                                 <h4>Flower cleaning</h4>
                             </div>
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="private_car_washing" type="checkbox" />
                                 <h4>Private Car Washing</h4>
                             </div>
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="dishwashing" type="checkbox" />
                                 <h4>Dishwashing</h4>
                             </div>
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="deep_cleaning" type="checkbox" />
                                 <h4>Deep Cleaning</h4>
                             </div>
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="house_shopping" type="checkbox" />
                                 <h4>House Shopping </h4>
                             </div>
                             <div class="cleaning-service-right-inner">
-                                <input type="checkbox" />
+                                <input name="cleaning_and_sanitizing_dining_room" type="checkbox" />
                                 <h4>Cleaning and Sanitizing dining room</h4>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <button class="btn request_btn">Request Quote</button>
+                        <button class="btn request_btn" type="submit">Request Quote</button>
                     </div>
                 </div>
+            </form>
             </div>
             <div class="other_service_heading">Other Service</div>
             <div class="other-service-card-container">

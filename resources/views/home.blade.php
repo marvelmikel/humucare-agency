@@ -274,8 +274,8 @@
                 </div>
 
                 <div class="service-slider-img">
-                    <img class="images main" src="{{ URL::asset('assets/images/1.jpeg')}}" />
-                    <img class="images" src="{{ URL::asset('assets/images/1.jpeg')}}" />
+                    <img class="images main" src="{{ URL::asset('assets/images/3.jpg')}}" />
+                    <img class="images" src="{{ URL::asset('assets/images/3.jpg')}}" />
                     <img class="images" src="{{ URL::asset('assets/images/2.jpg')}}"  />
 
                     <div class="navigation-btns-wrapper">
