@@ -26,7 +26,7 @@
                 <div class="nav-items">
                     <div>
                         <a href="{{ route('home') }}">
-                        <img src="{{ URL::asset('assets/images/logo.png')}}" alt="logo" class="logo" />
+                            <img src="{{ URL::asset('assets/images/logo.png')}}" alt="logo" class="logo" />
                         </a>
                     </div>
                     <div class="nav-links">
@@ -44,13 +44,14 @@
 
                         <a href="https://humucarepay.payceler.net/">Send Money</a>
 
-                        <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
+                        <a href="https://humucareemployeemanagement.humucarecleaning.co.uk"
+                            id="loginMobileBtn">Login</a>
 
 
                     </div>
                     <a href="https://training.humucarecleaning.co.uk/courses">
 
-                    <button class="btn">Humu Courses</button>
+                        <button class="btn">Humu Courses</button>
                     </a>
                     <a href="https://humucareemployeemanagement.humucarecleaning.co.uk">
                         <button class="btn" id="">Login</button>
@@ -62,6 +63,8 @@
             </nav>
         </header>
 
+        {{-- <div id="pspdfkit" style="height: 100vh"></div> --}}
+
         <section class="service-quote">
             <div class="service-quote-sub">
                 <h2>Service Quote Form</h2>
@@ -72,121 +75,121 @@
                     <input type="text" id="email" name="email" placeholder="Email">
                     {{-- <input type="text" id="password" name="password" placeholder="Password"> --}}
 
-                <div class="cleaning-service">
-                    <h2>Cleaning Services</h2>
-                    <p>Select those that apply</p>
-                    <div class="cleaning-service-sub">
-                        <div class="cleaning-service-left">
-                            <div class="cleaning-service-left-inner">
-                                <input name="vacuum_and_mop_floors" type="checkbox" />
-                                <h4>Vacuum and mop floors</h4>
+                    <div class="cleaning-service">
+                        <h2>Cleaning Services</h2>
+                        <p>Select those that apply</p>
+                        <div class="cleaning-service-sub">
+                            <div class="cleaning-service-left">
+                                <div class="cleaning-service-left-inner">
+                                    <input name="vacuum_and_mop_floors" type="checkbox" />
+                                    <h4>Vacuum and mop floors</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="dust_and_wipe_surfaces" type="checkbox" />
+                                    <h4>Dust and wipe surfaces</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="cleaning_and_sanitize_bathrooms" type="checkbox" />
+                                    <h4>Cleaning and sanitize bathrooms</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="cleaning_and_sanitize_kitchen" type="checkbox" />
+                                    <h4>Cleaning and sanitize kitchen</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="empty_trash_cans_and_replace_liners" type="checkbox" />
+                                    <h4>Empty trash cans and replace liners</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="cleaning_and_sanitize_bedrooms" type="checkbox" />
+                                    <h4>Cleaning and sanitize bedrooms</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="cleaning_and_sanitize_living_room" type="checkbox" />
+                                    <h4>Cleaning and sanitize living room</h4>
+                                </div>
                             </div>
-                            <div class="cleaning-service-left-inner">
-                                <input name="dust_and_wipe_surfaces" type="checkbox" />
-                                <h4>Dust and wipe surfaces</h4>
-                            </div>
-                            <div class="cleaning-service-left-inner">
-                                <input name="cleaning_and_sanitize_bathrooms" type="checkbox" />
-                                <h4>Cleaning and sanitize bathrooms</h4>
-                            </div>
-                            <div class="cleaning-service-left-inner">
-                                <input name="cleaning_and_sanitize_kitchen" type="checkbox" />
-                                <h4>Cleaning and sanitize kitchen</h4>
-                            </div>
-                            <div class="cleaning-service-left-inner">
-                                <input name="empty_trash_cans_and_replace_liners" type="checkbox" />
-                                <h4>Empty trash cans and replace liners</h4>
-                            </div>
-                            <div class="cleaning-service-left-inner">
-                                <input name="cleaning_and_sanitize_bedrooms" type="checkbox" />
-                                <h4>Cleaning and sanitize bedrooms</h4>
-                            </div>
-                            <div class="cleaning-service-left-inner">
-                                <input name="cleaning_and_sanitize_living_room" type="checkbox" />
-                                <h4>Cleaning and sanitize living room</h4>
+                            <div class="cleaning-service-right">
+                                <div class="cleaning-service-right-inner">
+                                    <input name="fridge_cleaning" type="checkbox" />
+                                    <h4>Fridge cleaning</h4>
+                                </div>
+                                <div class="cleaning-service-right-inner">
+                                    <input name="empty_trash_cans_and_replace_liners" type="checkbox" />
+                                    <h4>Empty trash cans and replace liners</h4>
+                                </div>
+                                <div class="cleaning-service-right-inner">
+                                    <input name="flower_cleaning" type="checkbox" />
+                                    <h4>Flower cleaning</h4>
+                                </div>
+                                <div class="cleaning-service-right-inner">
+                                    <input name="private_car_washing" type="checkbox" />
+                                    <h4>Private Car Washing</h4>
+                                </div>
+                                <div class="cleaning-service-right-inner">
+                                    <input name="dishwashing" type="checkbox" />
+                                    <h4>Dishwashing</h4>
+                                </div>
+                                <div class="cleaning-service-right-inner">
+                                    <input name="deep_cleaning" type="checkbox" />
+                                    <h4>Deep Cleaning</h4>
+                                </div>
+                                <div class="cleaning-service-right-inner">
+                                    <input name="house_shopping" type="checkbox" />
+                                    <h4>House Shopping </h4>
+                                </div>
+                                <div class="cleaning-service-right-inner">
+                                    <input name="cleaning_and_sanitizing_dining_room" type="checkbox" />
+                                    <h4>Cleaning and Sanitizing dining room</h4>
+                                </div>
                             </div>
                         </div>
-                        <div class="cleaning-service-right">
-                            <div class="cleaning-service-right-inner">
-                                <input name="fridge_cleaning" type="checkbox" />
-                                <h4>Fridge cleaning</h4>
-                            </div>
-                            <div class="cleaning-service-right-inner">
-                                <input name="empty_trash_cans_and_replace_liners" type="checkbox" />
-                                <h4>Empty trash cans and replace liners</h4>
-                            </div>
-                            <div class="cleaning-service-right-inner">
-                                <input name="flower_cleaning" type="checkbox" />
-                                <h4>Flower cleaning</h4>
-                            </div>
-                            <div class="cleaning-service-right-inner">
-                                <input name="private_car_washing" type="checkbox" />
-                                <h4>Private Car Washing</h4>
-                            </div>
-                            <div class="cleaning-service-right-inner">
-                                <input name="dishwashing" type="checkbox" />
-                                <h4>Dishwashing</h4>
-                            </div>
-                            <div class="cleaning-service-right-inner">
-                                <input name="deep_cleaning" type="checkbox" />
-                                <h4>Deep Cleaning</h4>
-                            </div>
-                            <div class="cleaning-service-right-inner">
-                                <input name="house_shopping" type="checkbox" />
-                                <h4>House Shopping </h4>
-                            </div>
-                            <div class="cleaning-service-right-inner">
-                                <input name="cleaning_and_sanitizing_dining_room" type="checkbox" />
-                                <h4>Cleaning and Sanitizing dining room</h4>
-                            </div>
+                        <div>
+                            <button class="btn request_btn" type="submit">Request Quote</button>
                         </div>
                     </div>
-                    <div>
-                        <button class="btn request_btn" type="submit">Request Quote</button>
-                    </div>
-                </div>
-            </form>
+                </form>
             </div>
             <div class="other_service_heading">Other Service</div>
             <div class="other-service-card-container">
                 <div class="other-service-card">
                     <p>Accommodation (Air bnb)</p>
                     <a href="{{ route('serviceRequest') }}">
-                    <button class="btn request_btn">Request Quote</button>
+                        <button class="btn request_btn">Request Quote</button>
                     </a>
                 </div>
                 <div class="other-service-card">
                     <p>Visa
                         Application</p>
-                        <a href="{{ route('serviceRequest') }}">
-                    <button class="btn request_btn">Request Quote</button>
+                    <a href="{{ route('serviceRequest') }}">
+                        <button class="btn request_btn">Request Quote</button>
                     </a>
                 </div>
                 <div class="other-service-card">
                     <p>Forklift
                         Training/Service</p>
-                        <a href="{{ route('serviceRequest') }}">
-                    <button class="btn request_btn">Request Quote</button>
+                    <a href="{{ route('serviceRequest') }}">
+                        <button class="btn request_btn">Request Quote</button>
                     </a>
                 </div>
                 <div class="other-service-card">
                     <p>Legal Services</p>
                     <a href="{{ route('serviceRequest') }}">
-                    <button class="btn request_btn">Request Quote</button>
+                        <button class="btn request_btn">Request Quote</button>
                     </a>
                 </div>
                 <div class="other-service-card">
                     <p>Accountant
                         Services</p>
-                        <a href="{{ route('serviceRequest') }}">
-                    <button class="btn request_btn">Request Quote</button>
+                    <a href="{{ route('serviceRequest') }}">
+                        <button class="btn request_btn">Request Quote</button>
                     </a>
                 </div>
                 <div class="other-service-card">
                     <p>Flight
                         Booking</p>
-                        <a href="{{ route('serviceRequest') }}">
-                    <button class="btn request_btn">Request Quote</button>
+                    <a href="{{ route('serviceRequest') }}">
+                        <button class="btn request_btn">Request Quote</button>
                     </a>
                 </div>
 
@@ -246,7 +249,7 @@
                         }
                         initPayPalButton();
                     </script>
-            </div>
+                </div>
         </section>
 
         <section class="contact" id="contact">
@@ -335,5 +338,21 @@
     </main>
 </body>
 <script type="text/javascript" src="{{ URL::asset('assets/js/navbar.js')}}"></script>
+
+<script src="{{ URL::asset('assets/pspdfkit.js')}}"></script>
+
+<script>
+    PSPDFKit.load({
+		container: "#pspdfkit",
+  		document: "humucare-job-application-form.pdf",
+        licenseKey: "ZReDVTLiJuFbqlFb27kscJ6qx1EAP1HZlIK8FrV9TNPSSMLXoUoYtplepNagO6Rdw8W2cN5H3-26qbuKOBjoBRVU5g6wZy2yPQV5casyQFR7UaV5V6-x2_3XzMtI8KgbQltH7vWSf7D9jN7eNURKyt7pQrAl3fi5o3kL7aJUmQNCNb0QyVX_5sCftoobUR2RsQG6SAoD3yILX_Sc"
+	})
+	.then(function(instance) {
+		console.log("PSPDFKit loaded", instance);
+	})
+	.catch(function(error) {
+		console.error(error.message);
+	});
+</script>
 
 </html>

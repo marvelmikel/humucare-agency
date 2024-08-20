@@ -25,7 +25,7 @@ class PageController extends Controller
     public function service()
     {
       return view('service');
-    } 
+    }
 
   public function postFormStepOne (Request $request){
 
@@ -56,13 +56,13 @@ class PageController extends Controller
   }
       return redirect('humcareform-step-two');
   }
-  
+
   public function getFormStepTwo (Request $request){
     $details = $request->session()->get('details');
 
     return view ('humcareform-step-two',compact('details'));
   }
-  
+
 public function postFormStepTwo (Request $request) {
 
     $validatedData = $request->validate([
@@ -78,12 +78,12 @@ public function postFormStepTwo (Request $request) {
         'conviction'=>'required',
         'convictionDetails'=>'sometimes',
         'underTaking'=>'required',
-    ]);  
-  
+    ]);
+
       $details = $request->session()->get('details');
       $details->fill($validatedData);
       $request->session()->put('details', $details);
-  
+
   return redirect ('/humcareform-step-three');
 }
 
@@ -98,21 +98,21 @@ public function postFormStepTwo (Request $request) {
     $validatedData = $request->validate([
     'offence' =>'sometimes',
     'disability' =>'required',
-  'sicknessAbsence' =>'required', 
+  'sicknessAbsence' =>'required',
   'refereeName1' =>'required',
-  'refereePosition1' =>'required', 
+  'refereePosition1' =>'required',
   'refereeRelationship1' =>'required',
   'refereeOrganization1' =>'required',
   'refereeAddress1'=>'required',
   'refereePostCode1' =>'required',
   'refereeTelephone1'=>'required',
-  'refereeEmail1' =>'required', 
-  'refereeName2'=>'required', 
+  'refereeEmail1' =>'required',
+  'refereeName2'=>'required',
   'refereePosition2' =>'required',
   'refereeRelationShip2'=>'required',
   'refereeOrganization2'=>'required',
-  'refereeAddress2'=>'required', 
-  'refereePostCode2'=>'required', 
+  'refereeAddress2'=>'required',
+  'refereePostCode2'=>'required',
   'refereeTelephone2'=>'required',
   'refereeEmail2'=>'required',
   'approachReferee'=>'required',
@@ -131,7 +131,7 @@ public function postFormStepTwo (Request $request) {
 
     return view ('humcareform-step-four');
   }
-  
+
   public function postFormStepFour(Request $request){
    $validatedData = request()->validate([
     'bankName'=>'required',
@@ -151,17 +151,17 @@ public function postFormStepTwo (Request $request) {
    $request->session()->put('details',$details);
     return redirect ('/humcareform-step-five');
   }
-  
-  
+
+
   public function getFormStepFive(Request $request){
     $details = $request->session()->get('details');
 
     return view ('humcareform-step-five');
   }
-  
+
   public function postFormStepFive(Request $request){
 
-    
+
     $request->validate([
       'passportBirth'=>'required|mimes:png,jpg,jpeg,pdf|max:2048',
       'proofOfWork'=>'required|mimes:png,jpg,jpeg,pdf|max:20488',
@@ -186,19 +186,19 @@ public function postFormStepTwo (Request $request) {
 
       $originalCertificateName = now()->timestamp.".{$request->originalCertificate->getClientOriginalName()}";
       $request->file('originalCertificate')->storeAs('Documents', $originalCertificateName);
-      
-      
+
+
       $certificateTrainingName = now()->timestamp.".{$request->certificateTraining->getClientOriginalName()}";
       $request->file('certificateTraining')->storeAs('Documents', $certificateTrainingName);
-      
-      
+
+
       $passportPhotoName = now()->timestamp.".{$request->passportPhoto->getClientOriginalName()}";
       $request->file('passportPhoto')->storeAs('Documents', $passportPhotoName);
 
-      
+
       $bankSocietyDetailsName = now()->timestamp.".{$request->bankSocietyDetails->getClientOriginalName()}";
       $request->file('bankSocietyDetails')->storeAs('Documents', $bankSocietyDetailsName);
-      
+
       $dbsCertificateName = now()->timestamp.".{$request->dbsCertificate->getClientOriginalName()}";
       $request->file('dbsCertificate')->storeAs('Documents', $dbsCertificateName);
 
@@ -208,7 +208,7 @@ public function postFormStepTwo (Request $request) {
 
       $curriculumVitaeName = now()->timestamp.".{$request->curriculumVitae->getClientOriginalName()}";
       $request->file('curriculumVitae')->storeAs('Documents', $curriculumVitaeName);
-     
+
       $imageDetails = [
         'passportBirth' => $passportBirthName,
         'proofOfWork'   => $proofOfWorkName,
@@ -226,25 +226,25 @@ public function postFormStepTwo (Request $request) {
       $request->session()->put('details', $details);
       $details->save();
       $request->session()->flush();
-      
+
       $notify[] = ['success', 'Your submission was successful'];
 
       return redirect('humcareform')->withNotify($notify);
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    public function humcarecleanform()
    {
      return view('humcarecleanform');

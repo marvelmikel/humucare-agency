@@ -2,6 +2,9 @@
 
 @section('content')
 
+{{-- <div id="pspdfkit" style="height: 100vh"></div> --}}
+
+
 <section class="hero" id="home">
     <div class="hero-sub">
         <article class="hero-info">
@@ -184,10 +187,16 @@
         <div class="testimonials-sub">
             <article class="testimonials-card">
                 <h4>Humucare Job Application Form</h4>
-                <div style="text-align: center;">
+                <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download2" download>
                         <button type="button" onclick="confirmation(event)" data-content="/download2" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+
+                    <a href="{{route('editPdf', 'humucare-job-application-form.pdf')}}">
+                        <button class="btn btn-success">
+                            <i class="fas fa-pen"></i> Fill Online.
                         </button>
                     </a>
                 </div>
@@ -196,10 +205,16 @@
 
             <article class="testimonials-card">
                 <h4>Humucare Cleaner Application Form</h4>
-                <div style="text-align: center;">
+                <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download" download>
                         <button type="button" onclick="confirmation(event)" data-content="/download" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+
+                    <a href="{{route('editPdf', 'Humucare-cleaning-application-form.pdf')}}">
+                        <button class="btn btn-success">
+                            <i class="fas fa-pen"></i> Fill Online.
                         </button>
                     </a>
                 </div>
@@ -208,10 +223,16 @@
             <article class="testimonials-card">
                 <h4>Humucare Parent application form</h4>
                 <span>To book a Nanny as a parent download.</span>
-                <div style="text-align: center;">
+                <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download6" download>
                         <button type="button" onclick="confirmation(event)" data-content="/download6" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+
+                    <a href="{{route('editPdf', 'PARENT APPLICATION FORM UK.pdf')}}">
+                        <button class="btn btn-success">
+                            <i class="fas fa-pen"></i> Fill Online.
                         </button>
                     </a>
                 </div>
@@ -220,10 +241,16 @@
             <article class="testimonials-card">
                 <h4>Humucare Nanny application form</h4>
                 <span>To register as a Nanny download.</span>
-                <div style="text-align: center;">
+                <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download5" download>
                         <button type="button" onclick="confirmation(event)" data-content="/download5" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+
+                    <a href="{{route('editPdf', 'NANNY APPLICATION FORM UK.pdf')}}">
+                        <button class="btn btn-success">
+                            <i class="fas fa-pen"></i> Fill Online.
                         </button>
                     </a>
                 </div>
@@ -233,12 +260,19 @@
             <article class="testimonials-card">
                 <h4>Humucare Time Sheet Form.</h4>
                 <span>Download only after job offer is granted.</span>
-                <div style="text-align: center;">
+                <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download3" download>
                         <button type="button" onclick="confirmation(event)" data-content="/download3" class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
+
+                    <a href="{{route('editPdf', 'humucare-Time-sheet.pdf')}}">
+                        <button class="btn btn-success">
+                            <i class="fas fa-pen"></i> Fill Online.
+                        </button>
+                    </a>
+                    {{-- <button  class="btn btn-success">Fill online.</button> --}}
                 </div>
             </article>
 
@@ -265,9 +299,17 @@
                         </p>
 
 
-                        <a href="https://direct.travelnest.com/properties/7989306">
-                            <button class="btn training-btn">Visit our Short stay </button>
-                            </a>
+                        <div class="d-flex">
+
+                            <a href="https://direct.travelnest.com/properties/7989306">
+                                <button class="btn training-btn">Visit TravelNest rooms </button>
+                                </a>
+
+                                <a href="https://www.airbnb.co.uk/rooms/1197302073479837504">
+                                    <button class="btn training-btn">Visit our Airbnb rooms </button>
+                                    </a>
+
+                        </div>
 
                     </article>
 

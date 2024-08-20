@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ApplicationController;
+use App\Http\Controllers\EditPdfController;
 use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Route;
 
@@ -114,6 +115,7 @@ Route::get('/download6', function(){
 });
 
 Route::post('/serviceQoute',[MailController::class, 'serviceQuote'])->name('serviceQoute');
+Route::get('/editOnline/{path}',[EditPdfController::class, 'editPdf'])->name('editPdf');
 
 
 
