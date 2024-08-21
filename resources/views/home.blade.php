@@ -299,10 +299,10 @@
                         </p>
 
 
-                        <div class="d-flex">
+                        <div style="margin-bottom: 100px" class="d-flex">
 
-                            <a href="https://direct.travelnest.com/properties/7989306">
-                                <button class="btn training-btn">Visit TravelNest rooms </button>
+                            <a  href="https://direct.travelnest.com/properties/7989306">
+                                <button class="btn training-btn">Visit our Travel Nest rooms </button>
                                 </a>
 
                                 <a href="https://www.airbnb.co.uk/rooms/1197302073479837504">
@@ -316,9 +316,9 @@
                 </div>
 
                 <div class="service-slider-img">
-                    <img class="images main" src="{{ URL::asset('assets/images/3.jpg')}}" />
-                    <img class="images" src="{{ URL::asset('assets/images/3.jpg')}}" />
-                    <img class="images" src="{{ URL::asset('assets/images/2.jpg')}}"  />
+                    <img class="images main" src="{{ URL::asset('assets/images/1.jpeg')}}" />
+                    <img class="images" src="{{ URL::asset('assets/images/1.jpeg')}}" />
+                    <img class="images" src="{{ URL::asset('assets/images/1.jpeg')}}"  />
 
                     <div class="navigation-btns-wrapper">
                         <div class="previous navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" alt="arrow" />
