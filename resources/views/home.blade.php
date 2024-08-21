@@ -289,9 +289,11 @@
         <div class="service-details">
             <div class="service-slider-container">
                 <div class="service-articles-wrapper">
+                    <p>Experience Humu Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or brief business trips</p>
+
                     <article class="articles">
-                        <h5>Experience Humu Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or brief business trips</h5>
-                        <p>
+                        {{-- <h1>Experience Humu Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or brief business trips</h1> --}}
+                        <p style="font-size: 15px">
                         Humu Short Stay offers cozy and convenient stays tailored for quick
                         getaways or brief business trips. Enjoy comfortable accommodations with personalized
                         touches and easy access to local attractions, ensuring a hassle-free and memorable experience.
