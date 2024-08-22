@@ -322,8 +322,8 @@ h5 {
 .service-articles-wrapper {
   display: flex;
   flex-direction: column;
-  width: 43%;
-  max-height: 600px;
+  width: 50%;
+  max-height: 1000px;
   transition: transform 0.5s ease-in-out;
 }
 
