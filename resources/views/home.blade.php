@@ -32,7 +32,7 @@
                 school,
                 office, or any other space receives the best cleaning service possible.</p>
             <a href="{{ route('serviceRequest') }}">
-            <button class="btn req-btn">Request a service</button>
+                <button class="btn req-btn">Request a service</button>
             </a>
             <div class="nurse-container">
                 <img class="nurse" src="{{ URL::asset('assets/images/nurse.png')}}" alt="Nurse" />
@@ -76,7 +76,7 @@
         <div class="book-consultation" id="consultations">
             <p class="booking-heading">We are committed to serving you</p>
             <a href="{{ route('serviceRequest') }}">
-            <button class="booking-btn">Book a consultation now!</button>
+                <button class="booking-btn">Book a consultation now!</button>
             </a>
         </div>
     </div>
@@ -124,12 +124,16 @@
                 <div class="service-slider-img">
                     <img class="images main" src="{{ URL::asset('assets/images/nurse-with-old-patient-1.png')}}"
                         alt="Nurse and Patient" />
-                    <img class="images" src="{{ URL::asset('assets/images/man-with-basket.png')}}" alt="Nurse and Patient" />
-                    <img class="images" src="{{ URL::asset('assets/images/patient-on-yellow-nurse.png')}}" alt="Nurse and Patient" />
+                    <img class="images" src="{{ URL::asset('assets/images/man-with-basket.png')}}"
+                        alt="Nurse and Patient" />
+                    <img class="images" src="{{ URL::asset('assets/images/patient-on-yellow-nurse.png')}}"
+                        alt="Nurse and Patient" />
                     <div class="navigation-btns-wrapper">
-                        <div class="previous navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" alt="arrow" />
+                        <div class="previous navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}"
+                                alt="arrow" />
                         </div>
-                        <div class="next navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" /></div>
+                        <div class="next navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" />
+                        </div>
                     </div>
                 </div>
                 <div class="mobile-service-articles-wrapper">
@@ -189,7 +193,8 @@
                 <h4>Humucare Job Application Form</h4>
                 <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download2" download>
-                        <button type="button" onclick="confirmation(event)" data-content="/download2" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download2"
+                            class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
@@ -207,7 +212,8 @@
                 <h4>Humucare Cleaner Application Form</h4>
                 <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download" download>
-                        <button type="button" onclick="confirmation(event)" data-content="/download" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download"
+                            class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
@@ -225,7 +231,8 @@
                 <span>To book a Nanny as a parent download.</span>
                 <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download6" download>
-                        <button type="button" onclick="confirmation(event)" data-content="/download6" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download6"
+                            class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
@@ -243,7 +250,8 @@
                 <span>To register as a Nanny download.</span>
                 <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download5" download>
-                        <button type="button" onclick="confirmation(event)" data-content="/download5" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download5"
+                            class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
@@ -262,7 +270,8 @@
                 <span>Download only after job offer is granted.</span>
                 <div style="text-align: center; display: flex; justify-content: space-evenly">
                     <a href="/download3" download>
-                        <button type="button" onclick="confirmation(event)" data-content="/download3" class="btn btn-primary">
+                        <button type="button" onclick="confirmation(event)" data-content="/download3"
+                            class="btn btn-primary">
                             <i class="fas fa-download"></i> Download Form
                         </button>
                     </a>
@@ -272,7 +281,7 @@
                             <i class="fas fa-pen"></i> Fill Online.
                         </button>
                     </a>
-                    {{-- <button  class="btn btn-success">Fill online.</button> --}}
+                    {{-- <button class="btn btn-success">Fill online.</button> --}}
                 </div>
             </article>
 
@@ -289,27 +298,28 @@
         <div class="service-details">
             <div class="service-slider-container">
                 <div class="service-articles-wrapper">
-                    <p>Experience Humu Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or brief business trips</p>
+                    <h1>Experience Humucare Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or
+                        brief business trips</h1>
 
                     <article class="articles">
-                        {{-- <h1>Experience Humu Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or brief business trips</h1> --}}
                         <p style="font-size: 15px">
-                        Humu Short Stay offers cozy and convenient stays tailored for quick
-                        getaways or brief business trips. Enjoy comfortable accommodations with personalized
-                        touches and easy access to local attractions, ensuring a hassle-free and memorable experience.
-                         Perfect for travelers seeking a homey atmosphere in a prime location.
+                            Humu Short Stay offers cozy and convenient stays tailored for quick
+                            getaways or brief business trips. Enjoy comfortable accommodations with personalized
+                            touches and easy access to local attractions, ensuring a hassle-free and memorable
+                            experience.
+                            Perfect for travelers seeking a homey atmosphere in a prime location.
                         </p>
 
 
-                        <div style="margin-bottom: 100px" class="d-flex">
+                        <div style="height: 300px; width:500px;" class="d-flex">
 
-                            <a  href="https://direct.travelnest.com/properties/7989306">
-                                <button class="btn training-btn">Visit our Travel Nest rooms </button>
-                                </a>
+                            <a href="https://direct.travelnest.com/properties/7989306">
+                                <button class="btn training-btn">Visit Humucare short stay TravelNest</button>
+                            </a>
 
-                                <a href="https://www.airbnb.co.uk/rooms/1197302073479837504">
-                                    <button class="btn training-btn">Visit our Airbnb rooms </button>
-                                    </a>
+                            <a href="https://www.airbnb.co.uk/rooms/1197302073479837504">
+                                <button class="btn training-btn">Visit Humucare short stay Airbnb</button>
+                            </a>
 
                         </div>
 
@@ -317,17 +327,28 @@
 
                 </div>
 
+                {{-- <div class="col-lg-3">
+
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis animi veniam minus exercitationem
+                    harum laudantium quisquam deserunt eaque et dolorem esse temporibus delectus itaque facilis
+                    obcaecati quidem perspiciatis optio ab fugiat totam, quasi distinctio voluptatum numquam similique!
+                    Vel, blanditiis exercitationem.
+                </div> --}}
+
                 <div class="service-slider-img">
                     <img class="images main" src="{{ URL::asset('assets/images/1.jpeg')}}" />
                     <img class="images" src="{{ URL::asset('assets/images/1.jpeg')}}" />
-                    <img class="images" src="{{ URL::asset('assets/images/1.jpeg')}}"  />
+                    <img class="images" src="{{ URL::asset('assets/images/1.jpeg')}}" />
 
-                    <div class="navigation-btns-wrapper">
-                        <div class="previous navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" alt="arrow" />
+                    {{-- <div class="navigation-btns-wrapper">
+                        <div class="previous navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}"
+                                alt="arrow" />
                         </div>
-                        <div class="next navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" /></div>
-                    </div>
+                        <div class="next navigate-btn"><img src="{{ URL::asset('assets/images/arrow-right.png')}}" />
+                        </div>
+                    </div> --}}
                 </div>
+
                 <div class="mobile-service-articles-wrapper">
                     <article class="articles">
                         <h5>Experienced and Supportive Assistance:</h5>
@@ -361,11 +382,11 @@
 
                         <div class="d-flex">
                             <a href="https://direct.travelnest.com/properties/7989306">
-                                <button class="btn training-btn">Visit our Travelnest rooms </button>
-                                </a>
+                                <button class="btn training-btn">Visit Humucare short stay TravelNest </button>
+                            </a>
                             <a href="https://www.airbnb.co.uk/rooms/1197302073479837504">
-                                <button class="btn training-btn">Visit our Airbnb rooms </button>
-                                </a>
+                                <button class="btn training-btn">Visit Humucare short stay Airbnb </button>
+                            </a>
                         </div>
                     </article>
 
@@ -403,7 +424,8 @@
                         </div>
                     </article>
                     <div class="training-slider-container">
-                        <img class="training-slider-img" src="{{ URL::asset('assets/images/medical-nurses-working-together.png')}}"
+                        <img class="training-slider-img"
+                            src="{{ URL::asset('assets/images/medical-nurses-working-together.png')}}"
                             alt="Nurse and Patient" />
                     </div>
                 </div>
@@ -432,7 +454,8 @@
                         </div>
                     </article>
                     <div class="training-slider-container">
-                        <img class="training-slider-img" src="{{ URL::asset('assets/images/nurse-taking-care-elderly-patient.png')}}"
+                        <img class="training-slider-img"
+                            src="{{ URL::asset('assets/images/nurse-taking-care-elderly-patient.png')}}"
                             alt="Nurse and Patient" />
                     </div>
                 </div>
@@ -468,7 +491,8 @@
 
             </div>
             <div>
-                <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/phone.png')}}" alt="phone" />
+                <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/phone.png')}}"
+                        alt="phone" />
                     <h3>Phone</h3>
                 </div>
                 <p class="address-paragraph">+44 01214484501</p>
@@ -477,7 +501,8 @@
 
             </div>
             <div>
-                <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/mail.png')}}" alt="mail" />
+                <div class="address-heading"><img class="contact-icons" src="{{ URL::asset('assets/images/mail.png')}}"
+                        alt="mail" />
                     <h3>Email</h3>
                 </div>
                 <p class="address-paragraph">agency@humucarecleaning.co.uk</p>
@@ -486,8 +511,7 @@
         </div>
         <div class="map">
             <div style="width: 100%">
-                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
-                    marginwidth="0"
+                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                     src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Birmingham+(humucare)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
                         href="https://www.gps.ie/">gps systems</a>
                 </iframe>
