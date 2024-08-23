@@ -293,7 +293,7 @@
 <br><br>
 <section class="why-humucare" id="services">
     <div class="why-humucare-main">
-        <h2>Why Choose Humu Short Stay</h2>
+        <h2>Why Choose Humucare Short Stay</h2>
 
         <div class="service-details">
             <div class="service-slider-container">
