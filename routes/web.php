@@ -113,6 +113,15 @@ Route::get('/download6', function(){
 
     return Response::download($file, "Humucare Parent application form.pdf", $headers);
 });
+Route::get('/download7', function(){
+    $file = public_path()."/files/HUMCARE CLEANING AND AGENCY DOC1L.pdf";
+
+    $headers = array(
+        'Content-type: application/pdf',
+    );
+
+    return Response::download($file, "HUMCARE CLEANING AND AGENCY DOC1L.pdf", $headers);
+});
 
 Route::post('/serviceQoute',[MailController::class, 'serviceQuote'])->name('serviceQoute');
 Route::get('/editOnline/{path}',[EditPdfController::class, 'editPdf'])->name('editPdf');
