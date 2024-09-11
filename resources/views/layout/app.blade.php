@@ -68,17 +68,18 @@
 
                         <a href="https://www.humucareshop.co.uk/">Fashion Shop</a>
 
+                        <a href="https://training.humucarecleaning.co.uk/courses">Humu Courses</a>
                         <a href="https://mannie.ac/"> Food Shop</a>
+
                         <a href="https://humucarepay.payceler.net/">Send Money</a>
+                        {{-- <a href="https://training.humucarecleaning.co.uk/courses">Training</a> --}}
 
                         <a href="https://humucareemployeemanagement.humucarecleaning.co.uk" id="loginMobileBtn">Login</a>
 
 
-                    </div>
-                    <a href="https://training.humucarecleaning.co.uk/courses">
 
-                    <button class="btn">Humu Courses</button>
-                    </a>
+                    </div>
+
                     <a href="https://humucareemployeemanagement.humucarecleaning.co.uk">
                         <button class="btn" id="">Login</button>
                     </a>
@@ -244,6 +245,24 @@
               swal({
 
               title: "Download Humucare Job Application Form?",
+              text: "This action cannot be reverted easily.",
+              icon: "info",
+              buttons: true,
+              dangerMode: false,
+              })
+              .then((willCancel) => {
+              if (willCancel) {
+
+                  window.location.href = downloadContent;
+
+              }
+              });
+          }
+          if (downloadContent == '/download7') {
+
+              swal({
+
+              title: "Download HUMCARE CLEANING AND AGENCY DOC1L Form?",
               text: "This action cannot be reverted easily.",
               icon: "info",
               buttons: true,

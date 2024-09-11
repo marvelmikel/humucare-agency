@@ -285,6 +285,20 @@
                 </div>
             </article>
 
+            <article class="testimonials-card">
+                <h4>HUMCARE CLEANING AND AGENCY DOC 1L.</h4>
+                <span>Download doc.</span>
+                <div style="text-align: center; display: flex; justify-content: space-evenly">
+                    <a href="/download7" download>
+                        <button type="button" onclick="confirmation(event)" data-content="/download7"
+                            class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Form
+                        </button>
+                    </a>
+
+                </div>
+            </article>
+
 
         </div>
 
@@ -305,7 +319,7 @@
                         <p style="font-size: 15px">
                             Humu Short Stay offers cozy and convenient stays tailored for quick
                             getaways or brief business trips. Enjoy comfortable accommodations with personalized
-                            touches and easy access to local attractions, ensuring a hassle-free and memorable
+                            touches and easy access to locagitl attractions, ensuring a hassle-free and memorable
                             experience.
                             Perfect for travelers seeking a homey atmosphere in a prime location.
                         </p>
