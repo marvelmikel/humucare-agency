@@ -32,6 +32,9 @@ class MailController extends Controller
 
 
             'RequiredServices'=>[$req->fname, $req->lname, $req->email],
+            'renovation_service' => $req->renovation_service,
+            'interio_decoration_service' => $req->interio_decoration_service,
+            'capentary_service' => $req->capentary_service,
             'vacuum_and_mop_floors' => $req->vacuum_and_mop_floors,
             'dust_and_wipe_surfaces' => $req->dust_and_wipe_surfaces,
             'cleaning_and_sanitize_bathrooms' => $req->cleaning_and_sanitize_bathrooms,
