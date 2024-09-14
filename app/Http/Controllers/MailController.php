@@ -54,7 +54,7 @@ class MailController extends Controller
         ];
 
 
-        Mail::to(env('MAIL_FROM_ADDRESS'))->send(new ServiceQuoteMail($mailer, $mail));
+        Mail::to(env('MAIL_USERNAME'))->send(new ServiceQuoteMail($mailer, $mail));
 
         Alert::success('Sent', 'Quote Sent successfully.');
 
