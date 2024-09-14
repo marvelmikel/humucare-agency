@@ -81,6 +81,18 @@
                         <div class="cleaning-service-sub">
                             <div class="cleaning-service-left">
                                 <div class="cleaning-service-left-inner">
+                                    <input name="renovation_service" type="checkbox" />
+                                    <h4>Renovation Services</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="interio_decoration_service" type="checkbox" />
+                                    <h4>Interio Decorations Services</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
+                                    <input name="capentary_service" type="checkbox" />
+                                    <h4>Capentary Services</h4>
+                                </div>
+                                <div class="cleaning-service-left-inner">
                                     <input name="vacuum_and_mop_floors" type="checkbox" />
                                     <h4>Vacuum and mop floors</h4>
                                 </div>

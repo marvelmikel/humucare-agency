@@ -70,6 +70,7 @@
 
                         <a href="https://training.humucarecleaning.co.uk/courses">Humu Courses</a>
                         <a href="https://mannie.ac/"> Food Shop</a>
+                        <a href="https://humucarenannies.humucarecleaning.co.uk/"> Humucare </a>
 
                         <a href="https://humucarepay.payceler.net/">Send Money</a>
                         {{-- <a href="https://training.humucarecleaning.co.uk/courses">Training</a> --}}
