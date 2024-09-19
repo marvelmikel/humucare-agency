@@ -184,10 +184,28 @@
 
 
 <section class="testimonials" id="testimonials">
+
+
+
     <div class="testimonials-main">
         <h2 class="testimonials-heading">Application Forms</h2>
+
         <p class="testimonials-intro">Please kindly download the two form & fill it with a
             valid information and submit to the email below; agency@humucarecleaning.co.uk.</p>
+
+            <div style="text-align: center; display: flex; justify-content: space-evenly">
+                <div class="row">
+                    <div class="col-sm-12 mt-2 text-center">
+                        <h3>Watch Form Filling tutorial Video!!!</h3>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <video id="trainingVideo" controls autoplay muted>
+                            <source src="/files/Humucarecleaning-How-To-Fill-Form-Online.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
         <div class="testimonials-sub">
             <article class="testimonials-card">
                 <h4>Humucare Job Application Form</h4>
@@ -312,7 +330,8 @@
         <div class="service-details">
             <div class="service-slider-container">
                 <div class="service-articles-wrapper">
-                    <h1>Experience Humucare Short Stay Airbnb offers cozy and convenient stays tailored for quick getaways or
+                    <h1>Experience Humucare Short Stay Airbnb offers cozy and convenient stays tailored for quick
+                        getaways or
                         brief business trips</h1>
 
                     <article class="articles">

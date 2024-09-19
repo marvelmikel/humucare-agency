@@ -39,6 +39,27 @@
 
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
+    <style>
+        /* Default video width for larger screens */
+        #trainingVideo {
+            width: 600px;
+        }
+
+        /* Responsive video width for smaller screens (phones) */
+        @media only screen and (max-width: 768px) {
+            #trainingVideo {
+                width: 100%; /* Make the video take full width of the screen */
+            }
+        }
+
+        /* Adjust margins for mobile view */
+        @media only screen and (max-width: 768px) {
+            .row {
+                margin: 5px; /* Reduce margin on small screens */
+            }
+        }
+    </style>
+
 
 
 </head>
