@@ -16,6 +16,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/image', function () {
+    $imagePath = public_path('Service_images/manmop.webp');
+
+    if (file_exists($imagePath)) {
+        return response()->file($imagePath);
+    } else {
+        return response()->json(['message' => 'Image not found'], 404);
+    }
+});
+
 Route::get('/', function () {
     return view('home');
 });
