@@ -1,4 +1,7 @@
 <?php
+
+use App\Http\Controllers\Admin\LoginController as AdminLoginController;
+use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ApplicationController;
 use App\Http\Controllers\EditPdfController;
@@ -137,6 +140,13 @@ Route::post('/serviceQoute',[MailController::class, 'serviceQuote'])->name('serv
 Route::get('/editOnline/{path}',[EditPdfController::class, 'editPdf'])->name('editPdf');
 
 
+
+Route::get('/login',[AdminLoginController::class, 'loginView'])->name('login.view');
+Route::post('/login',[AdminLoginController::class, 'login'])->name('login');
+
+Route::get('/admin/dashboard', function () {
+    return view('admin.dashboard');
+})->name('dashboard');
 
 
 
