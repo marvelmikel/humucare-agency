@@ -70,9 +70,9 @@
                 <h2>Login </h2>
                 <form action="{{route('login')}}" method="POST">
                     @csrf
-                    <input type="email" id="email" name="email" placeholder="First Name">
-                    <input type="password" id="password" name="password" placeholder="Last Name">
-                    <button class="btn">Login</button>
+                    <input type="email" id="email" name="email" placeholder="Enter email here">
+                    <input type="password" id="password" name="password" placeholder="Enter password here">
+                    <button name="login button" class="btn">Login</button>
                 </form>
             </div>
 

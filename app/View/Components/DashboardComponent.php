@@ -2,10 +2,13 @@
 
 namespace App\View\Components;
 
+use App\Models\Service;
 use Illuminate\View\Component;
 
 class DashboardComponent extends Component
 {
+
+    public $services;
     /**
      * Create a new component instance.
      *
@@ -13,7 +16,7 @@ class DashboardComponent extends Component
      */
     public function __construct()
     {
-        //
+        $this->services = Service::all();
     }
 
     /**
@@ -23,6 +26,7 @@ class DashboardComponent extends Component
      */
     public function render()
     {
+
         return view('components.dashboard-component');
     }
 }

@@ -22,19 +22,14 @@ public function login(Request $request)
         'password' => 'required',
     ]);
 
-    // Get only the email and password from the request
     $credentials = $request->only('email', 'password');
 
-    // Attempt to log in the user
     if (Auth::attempt($credentials)) {
-        // Regenerate session to prevent session fixation attacks
         $request->session()->regenerate();
 
-        // Redirect to intended page (defaults to dashboard)
         return redirect()->route('dashboard');
     }
 
-    // Authentication failed
     return back()->withErrors([
         'email' => 'The provided credentials do not match our records.',
     ])->onlyInput('email');
@@ -48,10 +43,10 @@ public function login(Request $request)
 
         $request->session()->regenerateToken();
 
-        return redirect()->route('login');
+        return redirect()->route('login.view');
 
     }
-    
+
     public function dashboard()
     {
         return view('admin.dashboard');

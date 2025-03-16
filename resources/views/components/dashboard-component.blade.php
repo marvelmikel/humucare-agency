@@ -51,10 +51,11 @@
     <!-- leftbar-tab-menu -->
     <div class="leftbar-tab-menu">
         <div class="main-icon-menu">
-            <a href="index.html" class="logo logo-metrica d-block text-center">
+            <a href="{{route('home')}}" class="logo logo-metrica d-block text-center">
                 <span>
                     {{-- <img style="height: 50px; width: 50px" src="/dash/logos/edd-no-bg-black.png" alt="logo-small"
                         class="logo-sm"> --}}
+                        {{-- <input type="color" name="" id=""> --}}
                 </span>
             </a>
             <div class="main-icon-menu-body">
@@ -110,7 +111,7 @@
                     aria-labelledby="dasboard-tab">
                     <div class="title-box">
                         <h6 class="menu-title">
-                            <a class="nav-link" href="#">Dashboard</a>
+                            <a class="nav-link" href="{{route('dashboard')}}">Dashboard</a>
 
                         </h6>
                     </div>
@@ -246,15 +247,15 @@
                     </div>
                 </li> --}}
 
-                {{-- <li class="dropdown">
+                 <li class="dropdown">
                     <a class="nav-link dropdown-toggle nav-user" data-bs-toggle="dropdown" href="#" role="button"
                         aria-haspopup="false" aria-expanded="false">
                         <div class="d-flex align-items-center">
-                            <img src="/dash/logos/edd-no-bg-black.png" alt="profile-user"
-                                class="rounded-circle me-2 thumb-sm" />
+                            <img src="/assets/images/logo.png" alt="profile-user"
+                                class="rounded-circle m-3" />
                             <div>
                                 <small class="d-none d-md-block font-11">Admin</small>
-                                <span class="d-none d-md-block fw-semibold font-12">Edd Nettoyage<i
+                                <span class="d-none d-md-block fw-semibold font-12">Humucare Agency<i
                                         class="mdi mdi-chevron-down"></i></span>
                             </div>
                         </div>
@@ -270,7 +271,7 @@
                             </span>
                     </div>
                 </li>
-            </ul> --}}
+            </ul>
 
             <ul class="list-unstyled topbar-nav mb-0">
                 <li>
