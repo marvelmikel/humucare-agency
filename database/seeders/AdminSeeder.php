@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,8 +15,9 @@ class AdminSeeder extends Seeder
      */
     public function run()
     {
+        User::truncate();
         // Create an admin user
-        $admin = new \App\Models\User();
+        $admin = new User();
         $admin->name = 'Admin';
         $admin->email = 'clintonace09@gmail.com';
         $admin->password = bcrypt('password');

@@ -20,6 +20,27 @@
     <link href="/dash/css/app.min.css" rel="stylesheet" type="text/css" />
     <link href="/onboarding/css/flaticon.css" rel="stylesheet">
 
+    <style>
+        .see-more-dropdown {
+            display: none;
+            position: absolute;
+            background: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            width: 250px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        /* Position near the link */
+        .see-more-link {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+
+    </style>
 
 </head>
 
@@ -46,15 +67,7 @@
                             </a>
                             <!--end nav-link-->
                         </li>
-                        <!--end nav-item-->
-                        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Booking"
-                            data-bs-trigger="hover">
-                            <a href="#MetricaBooking" id="dashboard-tab" class="nav-link">
-                                <i class="ti ti-ticket "></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item-->
+
 
                         <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Services"
                             data-bs-trigger="hover">
@@ -63,71 +76,8 @@
                             </a>
                             <!--end nav-link-->
                         </li>
+
                         <!--end nav-item-->
-                        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Website Builder"
-                            data-bs-trigger="hover">
-                            <a href="#MetricaApps" id="apps-tab" class="nav-link">
-                                <i class="ti ti-apps "></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item-->
-
-
-                        {{-- <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Faqs"
-                            data-bs-trigger="hover">
-                            <a href="#Faq" id="apps-tab" class="nav-link">
-                                <i class="ti ti-question-mark menu-icon"></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item-->
-                        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Company"
-                            data-bs-trigger="hover">
-                            <a href="#Company" id="apps-tab" class="nav-link">
-                                <i class="ti ti-box menu-icon"></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item-->
-
-                        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Coverage"
-                            data-bs-trigger="hover">
-                            <a href="#Work" id="apps-tab" class="nav-link">
-                                <i class="ti ti-receipt menu-icon"></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item--> --}}
-
-                        {{--
-
-                        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Uikit"
-                            data-bs-trigger="hover">
-                            <a href="#MetricaUikit" id="uikit-tab" class="nav-link">
-                                <i class="ti ti-planet menu-icon"></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item-->
-
-                        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Pages"
-                            data-bs-trigger="hover">
-                            <a href="#MetricaPages" id="pages-tab" class="nav-link">
-                                <i class="ti ti-files menu-icon"></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item-->
-
-                        <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Authentication"
-                            data-bs-trigger="hover">
-                            <a href="#MetricaAuthentication" id="authentication-tab" class="nav-link">
-                                <i class="ti ti-shield-lock menu-icon"></i>
-                            </a>
-                            <!--end nav-link-->
-                        </li>
-                        <!--end nav-item--> --}}
                     </ul>
                     <!--end nav-->
                 </div>
@@ -172,11 +122,11 @@
                         <h6 class="menu-title">Manage Services</h6>
                         <ul class="nav flex-column">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Create Services</a>
+                                <a class="nav-link" href="{{route('create.view')}}">Create Services</a>
                             </li>
                             <!--end nav-item-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">All Services</a>
+                                <a class="nav-link" href="{{route('all.services')}}">All Services</a>
                             </li>
                             <!--end nav-item-->
 
@@ -371,6 +321,42 @@
                     console.error( error );
                 } );
     </script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll('.see-more-link');
+        const dropdowns = document.querySelectorAll('.see-more-dropdown');
+
+        links.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const index = link.getAttribute('data-index');
+
+                // Hide all dropdowns first
+                dropdowns.forEach(drop => drop.style.display = 'none');
+
+                // Toggle this one
+                const currentDropdown = document.querySelector('.see-more-dropdown[data-index="' + index + '"]');
+                if (currentDropdown.style.display === 'block') {
+                    currentDropdown.style.display = 'none';
+                } else {
+                    currentDropdown.style.display = 'block';
+                }
+            });
+        });
+
+        // Close dropdowns if clicked outside
+        document.addEventListener('click', function (e) {
+            const isLink = e.target.classList.contains('see-more-link');
+            const isInsideDropdown = e.target.closest('.see-more-dropdown');
+
+            if (!isLink && !isInsideDropdown) {
+                dropdowns.forEach(drop => drop.style.display = 'none');
+            }
+        });
+    });
+</script>
 
 </body>
 <!--end body-->
