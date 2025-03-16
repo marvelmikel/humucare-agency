@@ -13,6 +13,8 @@ class Service extends Model
         'image',
         'title',
         'description',
-        'link',
+        'link','local_image_path'
     ];
+
+
 }

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\LoginController as AdminLoginController;
+use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ApplicationController;
@@ -140,13 +141,33 @@ Route::post('/serviceQoute',[MailController::class, 'serviceQuote'])->name('serv
 Route::get('/editOnline/{path}',[EditPdfController::class, 'editPdf'])->name('editPdf');
 
 
-
-Route::get('/login',[AdminLoginController::class, 'loginView'])->name('login.view');
+// Login Admin Routes
+Route::get('/admin/login',[AdminLoginController::class, 'loginView'])->name('login.view');
 Route::post('/login',[AdminLoginController::class, 'login'])->name('login');
 
-Route::get('/admin/dashboard', function () {
-    return view('admin.dashboard');
-})->name('dashboard');
+
+Route::prefix('admin')->middleware('admin')->group(function () {
+
+    Route::post('logout',[AdminLoginController::class, 'logout'])->name('logout');
+    Route::get('dashboard',[AdminLoginController::class, 'dashboard'])->name('dashboard');
+
+
+    Route::prefix('services')->group(function () {
+
+        Route::post('create', [ServiceController::class, 'create'])->name('create');
+        Route::get('create.view', [ServiceController::class, 'createView'])->name('create.view');
+
+        Route::post('update/{id?}', [ServiceController::class, 'update'])->name('update');
+        Route::get('update.view/{id?}', [ServiceController::class, 'updateView'])->name('update.view');
+
+        Route::get('all/services', [ServiceController::class, 'allServices'])->name('all.services');
+
+        Route::get('delete/{id?}', [ServiceController::class, 'delete'])->name('delete.service');
+
+        Route::get('display/{id?}', [ServiceController::class, 'displayById'])->name('displayById');
+    });
+});
+
 
 
 
