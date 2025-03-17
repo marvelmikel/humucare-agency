@@ -19,7 +19,7 @@ class AdminSeeder extends Seeder
         // Create an admin user
         $admin = new User();
         $admin->name = 'Admin';
-        $admin->email = 'clintonace09@gmail.com';
+        $admin->email = 'admin@humucare.com';
         $admin->password = bcrypt('password');
         $admin->save();
 
