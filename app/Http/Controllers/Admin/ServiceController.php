@@ -25,6 +25,10 @@ class ServiceController extends Controller
             $data['local_image_path'] = $imagePath;
 
         }
+        else{
+            $data['image'] = null;
+
+        }
 
         $service = Service::create($data);
 
@@ -68,6 +72,9 @@ class ServiceController extends Controller
             $imagePath = self::imageUploader($request->image, 'Service', 'Service_images');
             $data['image'] = 'https://humucarecleaning.co.uk'.$imagePath;
             $data['local_image_path'] = $imagePath;
+
+        }else{
+            $data['image'] = null;
 
         }
         $service->update($data);
