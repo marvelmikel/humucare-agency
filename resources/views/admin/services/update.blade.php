@@ -67,9 +67,7 @@
 
                                                 <div class="col-lg-6 mb-2 mt-lg-0">
                                                     <label for="projectName" class="form-label">Short description :</label>
-                                                    <textarea  class="form-control" name="description" id="" cols="30" rows="10">
-                                                        {{$service?->description}}
-                                                    </textarea>
+                                                    <textarea  class="form-control" name="description" id=""  rows="10">{{$service?->description}}</textarea>
                                                 </div><!--end form-group-->
 
                                                 <button name="update service button" type="submit" class="btn btn-de-primary btn-sm">Update Service</button>
