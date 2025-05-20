@@ -38,13 +38,13 @@ class ApplicationController extends Controller
           // Notify the sender
           $application->notify(new SenderNotification());
 
-   
-       
-        //Send email notification to the user
-        Mail::to('agency@humucarecleaning.co.uk')->send(new AssistanceApplication($application));
 
-        
-    
+
+        //Send email notification to the user
+        // Mail::to('agency@humucarecleaning.co.uk')->send(new AssistanceApplication($application));
+
+
+
         return redirect()->back()->with('success', 'Request submitted successfully! We will get back to you shortly.');
     }
 }
