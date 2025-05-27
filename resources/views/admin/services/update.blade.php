@@ -46,8 +46,8 @@
                                                         </div><!--end form-group-->
 
                                                         <div class="col-lg-6 mb-2 mb-lg-0">
-                                                            <label for="projectName" class="form-label">Service Link :</label>
-                                                            <input type="text" class="form-control" name="link" value="{{$service?->link}}" aria-describedby="emailHelp" required placeholder="Enter Link eg. https://humucarecleaning.com">
+                                                            <label for="projectName" class="form-label">Service Link : Eg. https://www.humucareshop.co.uk/</label>
+                                                            <input type="url" class="form-control" name="link" value="{{$service?->link}}" aria-describedby="emailHelp" required placeholder="Enter Link eg. https://humucarecleaning.com">
                                                         </div><!--end form-group-->
 
 
@@ -59,7 +59,7 @@
                                                 <div class="form-group">
                                                     <div class="row">
                                                         <div class="col-lg-6 mb-2 mb-lg-3">
-                                                            <label class="form-label mt-2" for="pro-end-date">Image</label>
+                                                            <label class="form-label mt-2" for="pro-end-date">Image: Image should not be more than 2mb in size</label>
                                                             <input type="file" name="image" class="form-control" accept="image/*">
                                                         </div><!--end col-->
                                                     </div><!--end row-->

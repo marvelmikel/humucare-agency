@@ -13,6 +13,7 @@ class Service extends Model
         'image',
         'title',
         'description',
+        // 'text',
         'link','local_image_path'
     ];
 
