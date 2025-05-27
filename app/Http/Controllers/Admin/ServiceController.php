@@ -74,7 +74,7 @@ class ServiceController extends Controller
             $data['local_image_path'] = $imagePath;
 
         }else{
-            $data['image'] = null;
+            $data['image'] = $service->image;
 
         }
         $service->update($data);
