@@ -33,7 +33,7 @@
     PSPDFKit.load({
 		container: "#pspdfkit",
   		document: "{{$file}}",
-        licenseKey: "ZReDVTLiJuFbqlFb27kscJ6qx1EAP1HZlIK8FrV9TNPSSMLXoUoYtplepNagO6Rdw8W2cN5H3-26qbuKOBjoBRVU5g6wZy2yPQV5casyQFR7UaV5V6-x2_3XzMtI8KgbQltH7vWSf7D9jN7eNURKyt7pQrAl3fi5o3kL7aJUmQNCNb0QyVX_5sCftoobUR2RsQG6SAoD3yILX_Sc"
+        // licenseKey: "ZReDVTLiJuFbqlFb27kscJ6qx1EAP1HZlIK8FrV9TNPSSMLXoUoYtplepNagO6Rdw8W2cN5H3-26qbuKOBjoBRVU5g6wZy2yPQV5casyQFR7UaV5V6-x2_3XzMtI8KgbQltH7vWSf7D9jN7eNURKyt7pQrAl3fi5o3kL7aJUmQNCNb0QyVX_5sCftoobUR2RsQG6SAoD3yILX_Sc"
 	})
 	.then(function(instance) {
 		console.log("PSPDFKit loaded", instance);
